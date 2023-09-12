@@ -1,0 +1,48 @@
+#linkGitHub{
+    text-decoration: none; 
+    color: black; 
+    transition:0.5s;
+}
+
+#linkGitHub:hover {
+    color: #008cff; 
+    transition:0.5s;
+}
+
+.bg-custom{
+            background-image:  linear-gradient(0deg, #212529 40%, transparent 30%),
+            linear-gradient(0deg, transparent 60%, #f8f9fa 100%);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+}
+.my-navbar{
+        z-index:999;
+        position: sticky;
+        top: 0;
+}
+
+.form-floating{
+    max-width:282px;
+}
+
+.inputCreaCodice{
+    animation: attesaGiocatori 2s infinite; /* 4s è la durata totale dell'animazione */
+
+}
+
+
+@keyframes attesaGiocatori {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #eaecef;
+    }
+    100% {
+        background-color: white;
+    }
+}
+.disabilita{
+    pointer-events: none;
+}
