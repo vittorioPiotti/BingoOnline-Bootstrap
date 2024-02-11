@@ -39,12 +39,45 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ### Preparazione al Gioco
 
-![Form di registrazione del cliente](images/Preparazione-al-Gioco.png)
+#### Features del gioco
+
+#### Indice
+
+1. [Acquisto Cartelle Botteghino](#Acquisto Cartelle Botteghino)
+2. [Acquisto Cartelle Botteghino Tabellone](#Acquisto Cartelle Botteghino Tabellone)
+
+---
+
+##### Acquisto Cartelle Botteghino
+
+![Form di registrazione del cliente](images/acquisto-cartelle-botteghino.png)
+
+
+##### Acquisto Cartelle Botteghino Tabellone
+
+![Form di registrazione del cliente](images/acquisto-cartelle-tabellone.png)
+
+
+#### Features multiplayer
+
+#### Indice
+
+1. [Registrazione cliente](#egistrazione cliente)
+2. [Lista partecipanti](#Lista partecipanti)
+3. [Chat di gruppo](#Chat di gruppo)
+4. [Classifica giocatori](#Classifica giocatori)
+5. [Numeri estratti](#Numeri estratti)
+
+---
+
+##### Accesso alla Partita
+
+![Form di registrazione del cliente](images/accesso-alla-partita.png)
 
 Gli utenti solo dopo aver effettuato l'accesso possono acquistare o le cartelle del tabellone o quelle del botteghino in modo che il gioco inizi solo se tutti hanno comprato almeno una cartella
 
 In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso un menu interattivo l'utente può beneficiare delle seguenti features:
-#### Lista partecipanti
+##### Lista partecipanti
 
 ![Form di inizio della partita](images/Lista-partecipanti.png)
 
@@ -53,7 +86,7 @@ Lista dei partecipanti i relativi stati
 - Stato verde se l'utente ha comprato almeno una cartella
 - Stato blu se l'utente è pronto al gioco
 
-#### Chat di gruppo
+##### Chat di gruppo
 
 ![Form di inizio della partita](images/Chat-di-gruppo.png)
 
@@ -62,13 +95,13 @@ Chat di gioco per interagire con gli altri utenti
 >[!TIP]
 >In future implementazioni la censura delle parole inappropriate
 
-#### Classifica giocatori
+##### Classifica giocatori
 
 ![Form di inizio della partita](images/Classifica-giocatori.png)
 
 Classifica dei giocatori e dei premi riscattati
 
-#### Numeri estratti
+##### Numeri estratti
 
 ![Form di inizio della partita](images/Numeri-estratti.png)
 
