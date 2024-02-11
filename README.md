@@ -128,11 +128,11 @@ Visualzizazione di tutti i numeri estratti
 ### Teconologie Backend
 
 
-[`SQL`](#SQL)&ensp;&ensp;&ensp;[`PHP`](#PHP)
+[`SQL 2022`](#SQL)&ensp;&ensp;&ensp;[`PHP v8.3.2`](#PHP)
 
 ### Teconologie Frontend
 
-[`Javascript`](#Javascript)&ensp;&ensp;&ensp;[`HTML`](#HTML)&ensp;&ensp;&ensp;[`CSS`](#CSS)&ensp;&ensp;&ensp;[`Bootstrap`](#Bootstrap)&ensp;&ensp;&ensp;
+[`Javascript ES6 v18.5`](#Javascript)&ensp;&ensp;&ensp;[`HTML v5.3`](#HTML)&ensp;&ensp;&ensp;[`CSS v3`](#CSS)&ensp;&ensp;&ensp;[`Bootstrap v5.3`](#Bootstrap)&ensp;&ensp;&ensp;
 
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React-yellow)
