@@ -223,7 +223,7 @@ Il sito è progettato in modo **one-page** quindi è privo di un sistema di rout
 
 ## 6. Gestione dello Stato
 
-Per la gestione degli stati dei componenti non è stato necessario utilizzate librerie esterne come `vis.js`
+Per la gestione degli stati dei componenti non è stato necessario utilizzate librerie esterne come [`vis.js`](https://visjs.org/)
 
 - **Variabili JavaScript**
 - **Gestione Stati JavaScript**
