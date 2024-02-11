@@ -48,31 +48,31 @@ In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso
 
 ![Form di inizio della partita](images/Lista-partecipanti.png)
 
-- Lista dei partecipanti i relativi stati
-    - Stato grigio se l'utente non ha comprato nessuna cartella
-    - Stato verde se l'utente ha comprato almeno una cartella
-    - Stato blu se l'utente è pronto al gioco
+Lista dei partecipanti i relativi stati
+- Stato grigio se l'utente non ha comprato nessuna cartella
+- Stato verde se l'utente ha comprato almeno una cartella
+- Stato blu se l'utente è pronto al gioco
 
 #### Chat di gruppo
 
 ![Form di inizio della partita](images/Chat-di-gruppo.png)
 
-- Chat di gioco per interagire con gli altri utenti
+Chat di gioco per interagire con gli altri utenti
 
-- >[!TIP]
-  >In future implementazioni la censura delle parole inappropriate
+>[!TIP]
+>In future implementazioni la censura delle parole inappropriate
 
 #### Classifica giocatori
 
 ![Form di inizio della partita](images/Classifica-giocatori.png)
 
-- Classifica dei giocatori e dei premi riscattati
+Classifica dei giocatori e dei premi riscattati
 
 #### Numeri estratti
 
 ![Form di inizio della partita](images/Numeri-estratti.png)
 
-- Visualzizazione di tutti i numeri estratti
+Visualzizazione di tutti i numeri estratti
 
 ## 2. Tecnologie Utilizzate
 
