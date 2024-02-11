@@ -107,7 +107,7 @@ Le tecnologie usate dal frotnend sono:
 
 - <a id="Javascript"></a>**JavaScript:** è un linguaggio di scripting principalmente utilizzato per aggiungere interattività e dinamicità alle pagine web.
 
-- <a id="HTML"></a>**HTML*:** (HyperText Markup Language) è il linguaggio di markup standard utilizzato per creare pagine web.
+- <a id="HTML"></a>**HTML**: (HyperText Markup Language) è il linguaggio di markup standard utilizzato per creare pagine web.
 
 - <a id="CSS"></a>**CSS**: (Cascading Style Sheets) è un linguaggio utilizzato per definire lo stile e l'aspetto delle pagine web.
 
