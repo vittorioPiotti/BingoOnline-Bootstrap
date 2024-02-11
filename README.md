@@ -163,9 +163,9 @@ L'organizzazione dei componenti grafici è dinamica e sviluppata  sugli oggetti 
 
 - **Incapsulamento e Separazione delle Responsabilità**
 
-- **Estensibilità e Scalabilità:**
+- **Estensibilità e Scalabilità**
 
-La struttura del progetto, con la sua organizzazione dei componenti e delle responsabilità, porta a un codice più chiaro, manutenibile e riutilizzabile. Questo migliora la qualità e la scalabilità complessiva dell'applicazione, semplificando lo sviluppo e garantendo un alto standard di qualità nel tempo.
+- **Manutentibilità e riutilizzabilità** 
 
 ### Struttura dei File in un Albero di Path
 
