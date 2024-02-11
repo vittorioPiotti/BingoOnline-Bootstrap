@@ -121,18 +121,18 @@ Visualzizazione di tutti i numeri estratti
 
 ### Indice
 
-1. [Lista Teconologie Backend](#Lista-Teconologie-Backend)
-2. [Lista Teconologie Frontend](#Lista-Teconologie-Frontend)
+1. [Teconologie Backend](#Teconologie-Backend)
+2. [Teconologie Frontend](#Teconologie-Frontend)
 
 ---
 
 
-### Lista Teconologie Backend
+### Teconologie Backend
 
 
 [`SQL`](#SQL)&ensp;&ensp;&ensp;[`PHP`](#PHP)
 
-### Lista Teconologie Frontend
+### Teconologie Frontend
 
 [`Javascript`](#Javascript)&ensp;&ensp;&ensp;[`HTML`](#HTML)&ensp;&ensp;&ensp;[`CSS`](#CSS)&ensp;&ensp;&ensp;[`Bootstrap`](#Bootstrap)&ensp;&ensp;&ensp;
 
@@ -174,8 +174,6 @@ L'organizzazione dei componenti grafici è dinamica e sviluppata  sugli oggetti 
 
 ### Struttura dei File in un Albero di Path
 
-Di seguito la descrizione della struttura delle cartelle e dei file del frontend inclusi componenti:
-
 - **index**
 
    _Directory principale del progetto con tutti gli stili e gli script js e php ._
@@ -185,7 +183,6 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
   - **src/**
     
      _Directory principale del codice sorgente._
-
     - <a id="style"></a>**style/**
 
        _Contiene tutti i fogli di stile css sviluppati e di bootstrap._
@@ -211,25 +208,20 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 
 ## 5. Routing
 
-Nel contesto del progetto, è assente un sistema di routing tradizionale poiché il sito è progettato come una singola pagina (one-page) e le richieste vengono gestite direttamente senza reindirizzamenti di pagina.
+Il sito è progettato in modo one-page quindi è privo di un sistema di routing in quanto le richieste vengono gestite direttamente senza reindirizzamenti di pagina.
 
 ### Motivazione:
 
-- **Architettura One-Page**: Il sito web è progettato come una singola pagina, consentendo un'esperienza utente fluida e interattiva. I contenuti vengono caricati dinamicamente senza la necessità di ricaricare l'intera pagina.
-
-- **Gestione Dinamica dei Componenti**: Le richieste dell'utente vengono gestite direttamente nell'applicazione frontend, aggiornando dinamicamente i componenti senza reindirizzamenti di pagina.
-
-- **Miglior Esperienza Utente**: Evitare reindirizzamenti di pagina riduce i tempi di caricamento e offre una navigazione più fluida. L'aggiornamento dinamico dei componenti consente di visualizzare immediatamente i cambiamenti.
-
-- **Semplificazione della Logica di Navigazione**: Essendo un sito one-page, la complessità della logica di navigazione è ridotta. Concentrandosi sulla logica di visualizzazione dei componenti, si semplifica il flusso dell'applicazione.
-
-In conclusione, l'assenza di un sistema di routing tradizionale nel progetto è motivata dalla natura one-page del sito e dalla volontà di offrire un'esperienza utente più fluida e interattiva, gestendo dinamicamente i componenti senza reindirizzamenti di pagina.
-
-
+- **Gestione Dinamica dei Componenti Grafici**
+- **Esperienza Utente Fluida e Interattiva**
+- **Semplificazione della Logica di Navigazione**
 
 ## 6. Gestione dello Stato
 
-Nel contesto del frontend, l'utilizzo di variabili JavaScript e la gestione degli stati JavaScript sono stati utilizzati per mantenere e aggiornare dinamicamente lo stato dell'applicazione durante l'interazione dell'utente.
+Per la gestione degli stati dei componenti non si è hanno utilizzate librerie esterne come `vis.js`
+
+- **Variabili JavaScript**
+- **Gestione Stati JavaScript**
 
 
 ## 7. Chiamate API
