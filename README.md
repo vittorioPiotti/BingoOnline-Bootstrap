@@ -164,13 +164,13 @@ L'organizzazione dei componenti grafici è dinamica e sviluppata  sugli oggetti 
 
 - **Modularità e Riutilizzo del Codice** 
 
-- **Organizzazione e Struttura Chiare** 
+- **Organizzazione e Chiarezza Strutturale** 
 
 - **Incapsulamento e Separazione delle Responsabilità**
 
 - **Estensibilità e Scalabilità**
 
-- **Manutentibilità e riutilizzabilità** 
+- **Maggiore Manutentibilità** 
 
 ### Struttura dei File in un Albero di Path
 
@@ -208,7 +208,7 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 
 ## 5. Routing
 
-Il sito è progettato in modo one-page quindi è privo di un sistema di routing in quanto le richieste vengono gestite direttamente senza reindirizzamenti di pagina.
+Il sito è progettato in modo **one-page** quindi è privo di un sistema di routing in quanto le richieste vengono gestite direttamente senza reindirizzamenti di pagina.
 
 ### Motivazione:
 
@@ -218,7 +218,7 @@ Il sito è progettato in modo one-page quindi è privo di un sistema di routing 
 
 ## 6. Gestione dello Stato
 
-Per la gestione degli stati dei componenti non si è hanno utilizzate librerie esterne come `vis.js`
+Per la gestione degli stati dei componenti non è stato necessario utilizzate librerie esterne come `vis.js`
 
 - **Variabili JavaScript**
 - **Gestione Stati JavaScript**
