@@ -215,6 +215,7 @@ Il sito è progettato in modo **one-page** quindi è privo di un sistema di rout
 - **Gestione Dinamica dei Componenti Grafici**
 - **Esperienza Utente Fluida e Interattiva**
 - **Semplificazione della Logica di Navigazione**
+- **Ridotta Compelessità dell'Applicazione Web**
 
 ## 6. Gestione dello Stato
 
