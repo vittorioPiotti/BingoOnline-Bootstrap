@@ -469,14 +469,10 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 
 ## 13. Conclusione
 
-Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e funzionale grazie all'impiego di tecnologie moderne come React, Axios e Ant Design. La struttura organizzativa del progetto e l'efficace gestione dello stato mantengono il codice pulito e manutenibile. L'integrazione di test unitari assicura una buona qualità del codice. In sintesi, il frontend è ben progettato, reattivo e pronto per offrire un'esperienza utente di alta qualità.
-
-
 ### Indice
 
 1. [Ringraziamenti](#ringraziamenti)
 2. [Riferimenti aggiuntivi](#riferimenti-aggiuntivi)
-3. [Supporto e collaborazione futura](#supporto-e-collaborazione-futura)
 
 ---
 
@@ -501,18 +497,6 @@ Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferime
 
 
 ![Contatto](https://img.shields.io/badge/Contatto-GitHub-blue)
-
-
-### Supporto e collaborazione futura
-
-Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l'implementazione del progetto in altri contesti o per eventuali miglioramenti futuri. Non esitate a contattarci per ulteriori dettagli o proposte di collaborazione.
-
-Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
-
-![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Aziendale-green)
-
-> [!NOTE]
-> Consultare il [README globale del progetto](../) per ulteriori informazioni.
 
 ![Download](https://img.shields.io/badge/Download-0%2B-blue)
 
