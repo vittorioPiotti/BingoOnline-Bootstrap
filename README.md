@@ -162,7 +162,7 @@ Visualzizazione di tutti i numeri estratti
 
 ### Organizzazione dei Componenti Grafici
 
-L'organizzazione dei componenti grafici è dinamica e sviluppata  sugli oggetti in `JavaScript ES6`
+L'organizzazione dei componenti grafici è dinamica e sviluppata in funzione degli oggetti in `JavaScript ES6` quindi l'architettura risulta suddivisa in classi che definiscono i vari componenti grafici
 
 ### Vantaggi Strutturali
 
