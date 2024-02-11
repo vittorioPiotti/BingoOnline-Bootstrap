@@ -24,7 +24,7 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ### Indice
 
-1. [Accesso alla Partita](#Acceso-alla-Partita)
+1. [Accesso alla Partita](#Accesso-alla-Partita)
 2. [Preparazione al Gioco](#Preparazione-al-Gioco)
 3. [Fase di Gioco](#Fase-di-Gioco)
 
