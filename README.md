@@ -86,7 +86,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 ![Form di inizio della partita](images/Lista-partecipanti.png)
 
 Lista dei partecipanti i relativi stati
-- Stato grigio se l'utente non ha comprato nessuna cartella
+- ![Stato](https://img.shields.io/badge/&ensp;&ensp;&ensp;-gray) se l'utente non ha comprato nessuna cartella
 - Stato verde se l'utente ha comprato almeno una cartella
 - Stato blu se l'utente è pronto al gioco
 
