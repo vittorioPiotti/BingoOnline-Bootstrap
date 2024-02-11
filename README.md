@@ -39,6 +39,17 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ### Preparazione al Gioco
 
+![Form di registrazione del cliente](images/accesso-alla-partita.png)
+
+Gli utenti solo dopo aver effettuato l'accesso possono abilitare la fase di gioco e quindi acquistare o le cartelle del tabellone o quelle del botteghino in modo che il gioco inizi solo se tutti hanno comprato almeno una cartella e solo se il creatore avvia la partita
+
+
+### Fase di Gioco
+
+
+In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso un menu interattivo l'utente può beneficiare delle seguenti features:
+
+
 #### Features del gioco
 
 #### Indice
@@ -62,7 +73,6 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 #### Indice
 
-1. [Registrazione cliente](#egistrazione cliente)
 2. [Lista partecipanti](#Lista partecipanti)
 3. [Chat di gruppo](#Chat di gruppo)
 4. [Classifica giocatori](#Classifica giocatori)
@@ -70,13 +80,7 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ---
 
-##### Accesso alla Partita
 
-![Form di registrazione del cliente](images/accesso-alla-partita.png)
-
-Gli utenti solo dopo aver effettuato l'accesso possono acquistare o le cartelle del tabellone o quelle del botteghino in modo che il gioco inizi solo se tutti hanno comprato almeno una cartella
-
-In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso un menu interattivo l'utente può beneficiare delle seguenti features:
 ##### Lista partecipanti
 
 ![Form di inizio della partita](images/Lista-partecipanti.png)
