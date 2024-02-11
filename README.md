@@ -17,7 +17,7 @@
 13. [Conclusione](#13-conclusione)
 
 
-## Introduzione
+## 1. Introduzione
 
 Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tombola in un'applicazione web multi player offrendo un'esperienza utente con le seguenti features.
 
