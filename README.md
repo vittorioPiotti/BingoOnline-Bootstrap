@@ -92,7 +92,7 @@ Le tecnologie usate per il backend sono:
 
 - <a id="SQL"></a>**SQL:** (Structured Query Language): SQL è un linguaggio standardizzato utilizzato per gestire e manipolare database relazionali. È ampiamente utilizzato nel backend per memorizzare, recuperare, aggiornare e gestire i dati.
 
-- <a id="PHP"></a>**PHP*:* è un linguaggio di scripting open-source ampiamente utilizzato per lo sviluppo di applicazioni web lato server. È particolarmente adatto per generare contenuti dinamici e interagire con database.
+- <a id="PHP"></a>**PHP:** è un linguaggio di scripting open-source ampiamente utilizzato per lo sviluppo di applicazioni web lato server. È particolarmente adatto per generare contenuti dinamici e interagire con database.
 
 ### Lista Teconologie Frontend
 
@@ -105,7 +105,7 @@ Le tecnologie usate dal frotnend sono:
 
 - <a id="Javascript"></a>**JavaScript:** è un linguaggio di scripting principalmente utilizzato per aggiungere interattività e dinamicità alle pagine web.
 
-- <a id="HTML"></a>**HTML*:* (HyperText Markup Language) è il linguaggio di markup standard utilizzato per creare pagine web.
+- <a id="HTML"></a>**HTML*:** (HyperText Markup Language) è il linguaggio di markup standard utilizzato per creare pagine web.
 
 - <a id="CSS"></a>**CSS**: (Cascading Style Sheets) è un linguaggio utilizzato per definire lo stile e l'aspetto delle pagine web.
 
@@ -133,29 +133,19 @@ Le tecnologie usate dal frotnend sono:
 
 ### Organizzazione dei Componenti Grafici
 
-La struttura del progetto frontend segue un'un'architettura basata su **Model-View-Controller** (MVC) ed è organizzata in cartelle per garantire una chiara separazione delle responsabilità e una maggiore manutenibilità del codice.
+L'organizzazione dei componenti grafici è dinamica e sviluppata in javascript quindi segue un'architettura basata sugli oggetti della versione più moderna di JavaScript che offre diversi vantaggi in termini di modularità, manutenibilità e scalabilità del codice. Questo approccio consente di strutturare il codice in modo più organizzato e coerente, rendendo più facile la gestione dei componenti e la comprensione della logica di funzionamento dell'interfaccia utente.
 
-Ogni componente grafico funzionale è organizzato in tre file distinti:
-
-1. **View**: Questo file contiene solo la parte grafica del componente, ovvero la struttura HTML e la presentazione CSS. La View non ha alcuna logica di business o gestione dello stato.
-
-2. **Manager**: Il file Manager contiene la logica di business del componente, inclusa l'elaborazione dei dati e la gestione dello stato. Qui vengono definiti i metodi e gli attributi necessari per il funzionamento del componente.
-
-3. **Main**: Questo file istanzia il Manager e la View del componente, passando come parametri a View i metodi e gli attributi strettamente necessari all'interfaccia grafica definiti nel Manager.
-
-La scelta di questa struttura organizzativa dei componenti grafici è motivata dalla separazione dei compiti e dalla chiarezza del codice. Separando la parte grafica dalla logica di business, è più semplice comprendere e mantenere ciascun componente in modo isolato. Inoltre, questa organizzazione facilita il riutilizzo dei componenti e favorisce una migliore scalabilità dell'applicazione nel tempo.
+La scelta di questa struttura organizzativa dei componenti grafici inoltre è motivata dalla separazione dei compiti e dalla chiarezza del codice. Separando la parte grafica dalla logica di business, è più semplice comprendere e mantenere ciascun componente in modo isolato. Inoltre, questa organizzazione facilita il riutilizzo dei componenti e favorisce una migliore scalabilità dell'applicazione nel tempo.
 
 ### Vantaggi Strutturali
 
-- **Chiarezza del Codice**: La suddivisione dei componenti in View, Manager e Main e favorisce la chiarezza e la leggibilità del codice, rendendo più facile comprendere il funzionamento di ciascun componente.
+- **Modularità e Riutilizzo del Codice:** I componenti sono definiti come classi distinte, consentendo il riutilizzo in diversi contesti senza riscrivere la stessa logica.
 
-- **Facilità di Manutenzione**: Grazie alla separazione delle responsabilità, individuare e risolvere problemi o bug diventa più semplice, facilitando la manutenzione continua dell'applicazione.
+- **Organizzazione e Struttura Chiare:** Ogni componente è definito all'interno di una classe separata, migliorando la chiarezza e l'organizzazione del codice.
 
-- **Riutilizzo dei Componenti**: La struttura organizzativa agevola il riutilizzo dei componenti in diverse parti dell'applicazione e in progetti futuri, riducendo la duplicazione del codice e migliorando l'efficienza dello sviluppo.
+- **Incapsulamento e Separazione delle Responsabilità:** Ogni componente è responsabile solo delle proprie operazioni, promuovendo la separazione delle responsabilità e la manutenibilità del codice.
 
-- **Scalabilità dell'Applicazione**: Una struttura ben organizzata prepara l'applicazione per futuri sviluppi e modifiche, consentendo di aggiungere nuovi componenti o funzionalità in modo più semplice e sicuro.
-
-- **Implementazione Aggiuntiva di Funzionalità**: La chiara separazione delle responsabilità semplifica l'implementazione di nuove funzionalità nell'applicazione, garantendo che ogni componente abbia un ruolo ben definito e che le modifiche non influenzino il funzionamento esistente.
+- **Estensibilità e Scalabilità:** È possibile estendere e specializzare i componenti in modo semplice e intuitivo, consentendo l'adattamento dell'interfaccia alle esigenze dell'applicazione nel tempo.
 
 La struttura del progetto, con la sua organizzazione dei componenti e delle responsabilità, porta a un codice più chiaro, manutenibile e riutilizzabile. Questo migliora la qualità e la scalabilità complessiva dell'applicazione, semplificando lo sviluppo e garantendo un alto standard di qualità nel tempo.
 
@@ -163,145 +153,60 @@ La struttura del progetto, con la sua organizzazione dei componenti e delle resp
 
 Di seguito la descrizione della struttura delle cartelle e dei file del frontend inclusi componenti:
 
-- **Client**
+- **index**
 
-   _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
-  - <a id="App"></a>`App.js`: _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
+   _Directory principale del progetto con tutti gli stili e gli script js e php ._
+  - <a id="index"></a>`index.php`: _Contiene il codice per la pagina principale del sito web ._
+  - <a id="server"></a>`server.php`: _Contiene il codice per gestire le richieste provenienti dal client e le operazioni sul lato server ._
 
   - **src/**
     
      _Directory principale del codice sorgente._
-    - **script/**
 
-       _Contiene tutti gli script js sviluppati._
-      - **extra/**
+    - <a id="style"></a>**style/**
 
-         _Contiene gli script secondari utilizzati nei file principali._
-        - **design/**
+       _Contiene tutti i fogli di stile css sviluppati e di bootstrap._
+       - `stile.css`: _Foglio di stile con gli stili globali per tutto il progetto._
+     
+    - <a id="script"></a>**script/**
 
-           _Contiene gli script dei componenti grafici secondari riutilizzati in più schermate._
-          - <a id="FloatButtonGroup"></a>**FloatButton/**
+       _Contiene tutti gli script sviluppati e di bootstrap._
+       - `script.js`: _Script che sviluppa tutta la logica del progetto e la grafica._
+     
 
-             _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
-        - **utility/**
-
-           _Contiene gli script che sono i gestori per l'elaborazione dei dati e vengono riutilizzati nei componenti principali._
-          - `RequestManager.js`: _Componente per la gestione delle [chiamate API](#7-chiamate-api) con le richieste GET e POST dal frontend al server._
-          - `WindowLoader.js`: _Gestisce l'animazione di caricamento delle pagine web._
-
-      - **features/**
-
-         _Contiene i componenti funzionali del progetto._
-        - **autenticaUtente/**
-          
-             _Contiene gli script per il form di autenticazione dell'utente._
-            - <a id="AutenticaUtenteApp"></a>`AutenticaUtenteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `AutenticaUtenteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `AutenticaUtenteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
-              
-        - **registraCliente/**
-        
-             _Contiene gli script per il form di registrazione del cliente._
-            - <a id="RegistraClienteApp"></a>`RegistraClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `RegistraClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `RegistraClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
-              
-        - **visualizzaClienti/**
-          
-             _Contiene gli script per il form di visualizzazione delle anagrafiche dei clienti._
-            - <a id="VisualizzaClientiApp"></a>`VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `VisualizzaClientiManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - <a id="VisualizzaClientiView"></a>`VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
-  
-    - <a id="CSSPersonalizzati"></a>**style/**
-
-       _Contiene tutti i fogli di stile css sviluppati._
-       - `global.css`: _Foglio di stile con gli stili globali per tutto il progetto._
-      - `autenticaUtente.css`: _Foglio di stile con gli stili relativi alla schermata di autenticazione dell'utente._
-      - `registraCliente.css`: _Foglio di stile con gli stili relativi alla schermata di registrazione del cliente._
-      - `visualizzaClienti.css`: _Foglio di stile con gli stili relativi alla schermata di visualizzazione dei clienti._
-      - `menuLaterale.css`: _Foglio di stile con gli stili relativi al componente del menu di navigazione._
-
+      
 
 
 ## 4. Componenti Principali
 Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali screenshot e descrizione.
 
-| Nome Form                                | Descrizione Form                                                                                                                                                                                                                                                                                                                                                                                  | Immagine Form                                |
-|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| Form di autenticazione utente            | <ul><li>L'utente effettua il login al sistema da <strong>account unici preregistrati</strong></li><li>Degli account utente le <strong>credenziali sono criptate con SHA3</strong></li><li>Il sistema garantisce una <strong>gestione sicura per l'apertura delle pagine sensibili</strong> tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.</li></ul> | ![Form di autenticazione utente](images/autenticaUtente.png) |
-| Form di registrazione cliente           | Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.                                                                                                                                                                                                                                                               | ![Form di registrazione cliente](images/registraCliente.png) |
-| Form di visualizzazione anagrafiche cliente | Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:<ul><li>Si possono selezionare quali campi rendere visibili e quali oscurare</li><li>Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo</li></ul>                                                                                                                                                        | ![Form di visualizzazione anagrafiche cliente](images/visualizzaClienti.png) |
+| Nome Form            | Descrizione Form                                                                                                                    | Immagine Form    |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Menu Interattivo     | Utilizzato per interagire tra i partecipanti e per visualizzare i dati della partita multigiocatore.                                 | ![menu-interattivo](images/.png)|
+| Botteghio Cartelle   | Per comprare cartelle al botteghino.                                                                                                 | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Botteghino Tabellone | Per comprare cartelle al tabellone del botteghino.                                                                                    | ![botteghino-tabellone](images/botteghino-tabellone.png)|
 
 ## 5. Routing
 
-### Indice
+Nel contesto del progetto, è assente un sistema di routing tradizionale poiché il sito è progettato come una singola pagina (one-page) e le richieste vengono gestite direttamente senza reindirizzamenti di pagina.
 
-1. [Spiegazione del sistema di routing](#spiegazione-del-sistema-di-routing)
-2. [Descrizione delle rotte principali dell'applicazione](#descrizione-delle-rotte-principali-dellapplicazione)
-3. [Routing Sicuro e Reindirizzamento](#routing-sicuro-e-reindirizzamento)
+### Motivazione:
 
----
+- **Architettura One-Page**: Il sito web è progettato come una singola pagina, consentendo un'esperienza utente fluida e interattiva. I contenuti vengono caricati dinamicamente senza la necessità di ricaricare l'intera pagina.
 
-### Spiegazione del sistema di routing
+- **Gestione Dinamica dei Componenti**: Le richieste dell'utente vengono gestite direttamente nell'applicazione frontend, aggiornando dinamicamente i componenti senza reindirizzamenti di pagina.
 
-Nel progetto si ha utilizzato **React Router per gestire il routing** dell'applicazione.
+- **Miglior Esperienza Utente**: Evitare reindirizzamenti di pagina riduce i tempi di caricamento e offre una navigazione più fluida. L'aggiornamento dinamico dei componenti consente di visualizzare immediatamente i cambiamenti.
 
-I **componenti importati** da React Router sono i seguenti:
+- **Semplificazione della Logica di Navigazione**: Essendo un sito one-page, la complessità della logica di navigazione è ridotta. Concentrandosi sulla logica di visualizzazione dei componenti, si semplifica il flusso dell'applicazione.
 
-```js
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-```
-
-- `BrowserRouter`: Questo componente fornisce il contesto del routing per i componenti figlio. È avvolto intorno all'intera struttura delle rotte.
-- `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
-- `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
-
-Il sistema di routing è configurato all'interno del componente  [`App.js`](#App). Le rotte principali dell'applicazione sono definite come seguenti:
-
-### Descrizione delle rotte principali dell'applicazione
-
-
-- La rotta principale (`"/"`) è associata al componente  [`autenticaUtenteMain`](#AutenticaUtenteApp). Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
-- La rotta `"/registraCliente"` è associata al componente [`registraClienteMain` ](#RegistraClienteApp). Questa rotta gestisce il processo di registrazione del cliente.
-- La rotta `"/visualizzaClienti"` è associata al componente [`visualizzaClientiMain` ](#VisualizzaClientiApp). Questa rotta gestisce la visualizzazione dei clienti registrati.
-
-### Routing Sicuro e Reindirizzamento
-
-Il sistema implementa il routing sicuro per garantire che l'utente venga reindirizzato alle pagine appropriate solo dopo l'autenticazione. Questo viene fatto salvando nella cache i dati di accesso dell'utente. Se un utente prova ad accedere direttamente a una pagina senza essere autenticato, viene reindirizzato automaticamente alla pagina di accesso.
-
+In conclusione, l'assenza di un sistema di routing tradizionale nel progetto è motivata dalla natura one-page del sito e dalla volontà di offrire un'esperienza utente più fluida e interattiva, gestendo dinamicamente i componenti senza reindirizzamenti di pagina.
 
 
 
 ## 6. Gestione dello Stato
 
-Per la gestione dello stato dell'applicazione, sono stati principalmente utilizzati gli Hooks di React, in particolare [`useState`](#useState),  [`useEffect`](#useEffect), [`useRef`](#useRef), e [`useMemo`](#useMemo), ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
-
-### Indice
-
-1. [Utilizzo degli Hooks](#utilizzo-degli-hooks)
-2. [Motivazioni di Utilizzo](#motivazioni-di-utilizzo)
-
----
-
-### Utilizzo degli Hooks
-
-- <a id="useState"></a>**useState**: Questo Hook è stato utilizzato per definire e gestire lo stato locale all'interno dei componenti funzionali. Ad esempio, è stato utilizzato `useState` per gestire lo stato di variabili dinamiche come il testo di un input, lo stato di un modale, o il conteggio di un contatore.
-
-- <a id="useEffect"></a>**useEffect**: È stato impiegato `useEffect` per gestire gli effetti collaterali nelle componenti funzionali, come le richieste HTTP, la sottoscrizione agli eventi, o la gestione del ciclo di vita del componente. Questo Hook è utile per eseguire codice aggiuntivo dopo il rendering del componente o per ripulire le risorse quando il componente viene smontato.
-
-- <a id="useRef"></a>**useRef**: È stato utilizzato `useRef` per mantenere riferimenti a elementi DOM o valori persistenti tra i render dei componenti. Questo Hook è stato prezioso quando è stato necessario manipolare direttamente elementi DOM o mantenere riferimenti a valori che non devono essere re-inizializzati ad ogni renderizzazione del componente.
-
-- <a id="useMemo"></a>**useMemo**: È stato fatto uso di `useMemo` per memorizzare valori calcolati all'interno dei componenti funzionali. Questo Hook è stato utile quando è stato necessario calcolare valori derivati da altri stati o proprietà del componente, evitando il ricalcolo ad ogni renderizzazione a meno che le dipendenze non cambino.
-
-### Motivazioni di Utilizzo
-
-L'adozione di questi Hooks ha consentito di gestire in modo efficiente lo stato all'interno dei singoli componenti, senza dover ricorrere a librerie esterne come Redux. La scelta di utilizzare Hooks di React anziché librerie esterne è stata guidata dalla semplicità, dalla leggibilità e dalla scalabilità del codice.
-
-Utilizzare Hooks direttamente all'interno dei componenti ha semplificato la gestione dello stato, evitando la complessità aggiuntiva introdotta da librerie esterne. Questo approccio è stato particolarmente adatto per la gestione dello stato di piccoli componenti UI o di logica di visualizzazione semplice, mantenendo allo stesso tempo un codice chiaro e facilmente manutenibile.
+Nel contesto del frontend, l'utilizzo di variabili JavaScript e la gestione degli stati JavaScript sono stati utilizzati per mantenere e aggiornare dinamicamente lo stato dell'applicazione durante l'interazione dell'utente.
 
 
 ## 7. Chiamate API
