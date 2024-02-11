@@ -127,31 +127,9 @@ Visualzizazione di tutti i numeri estratti
 
 [`SQL`](#SQL)&ensp;&ensp;&ensp;[`PHP`](#PHP)
 
----
-
-Le tecnologie usate per il backend sono:
-
-
-- <a id="SQL"></a>**SQL:** (Structured Query Language): SQL è un linguaggio standardizzato utilizzato per gestire e manipolare database relazionali. È ampiamente utilizzato nel backend per memorizzare, recuperare, aggiornare e gestire i dati.
-
-- <a id="PHP"></a>**PHP:** è un linguaggio di scripting open-source ampiamente utilizzato per lo sviluppo di applicazioni web lato server. È particolarmente adatto per generare contenuti dinamici e interagire con database.
-
 ### Lista Teconologie Frontend
 
 [`Javascript`](#Javascript)&ensp;&ensp;&ensp;[`HTML`](#HTML)&ensp;&ensp;&ensp;[`CSS`](#CSS)&ensp;&ensp;&ensp;[`Bootstrap`](#Bootstrap)&ensp;&ensp;&ensp;
-
-
----
-
-Le tecnologie usate dal frotnend sono:
-
-- <a id="Javascript"></a>**JavaScript:** è un linguaggio di scripting principalmente utilizzato per aggiungere interattività e dinamicità alle pagine web.
-
-- <a id="HTML"></a>**HTML**: (HyperText Markup Language) è il linguaggio di markup standard utilizzato per creare pagine web.
-
-- <a id="CSS"></a>**CSS**: (Cascading Style Sheets) è un linguaggio utilizzato per definire lo stile e l'aspetto delle pagine web.
-
-- <a id="Bootstrap"></a>**[Bootstrap](https://getbootstrap.com/) `v5.3.2`**: Bootstrap è un framework CSS utilizzato per la progettazione e lo stile dell'interfaccia utente. Offre una serie di componenti UI predefiniti, griglie responsive e stili CSS pronti per l'uso, che semplificano la creazione di un'interfaccia utente accattivante e moderna.
 
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React-yellow)
@@ -175,19 +153,17 @@ Le tecnologie usate dal frotnend sono:
 
 ### Organizzazione dei Componenti Grafici
 
-L'organizzazione dei componenti grafici è dinamica e sviluppata in javascript quindi segue un'architettura basata sugli oggetti della versione più moderna di JavaScript che offre diversi vantaggi in termini di modularità, manutenibilità e scalabilità del codice. Questo approccio consente di strutturare il codice in modo più organizzato e coerente, rendendo più facile la gestione dei componenti e la comprensione della logica di funzionamento dell'interfaccia utente.
-
-La scelta di questa struttura organizzativa dei componenti grafici inoltre è motivata dalla separazione dei compiti e dalla chiarezza del codice. Separando la parte grafica dalla logica di business, è più semplice comprendere e mantenere ciascun componente in modo isolato. Inoltre, questa organizzazione facilita il riutilizzo dei componenti e favorisce una migliore scalabilità dell'applicazione nel tempo.
+L'organizzazione dei componenti grafici è dinamica e sviluppata  sugli oggetti in `JavaScript ES6`
 
 ### Vantaggi Strutturali
 
-- **Modularità e Riutilizzo del Codice:** I componenti sono definiti come classi distinte, consentendo il riutilizzo in diversi contesti senza riscrivere la stessa logica.
+- **Modularità e Riutilizzo del Codice** 
 
-- **Organizzazione e Struttura Chiare:** Ogni componente è definito all'interno di una classe separata, migliorando la chiarezza e l'organizzazione del codice.
+- **Organizzazione e Struttura Chiare** 
 
-- **Incapsulamento e Separazione delle Responsabilità:** Ogni componente è responsabile solo delle proprie operazioni, promuovendo la separazione delle responsabilità e la manutenibilità del codice.
+- **Incapsulamento e Separazione delle Responsabilità**
 
-- **Estensibilità e Scalabilità:** È possibile estendere e specializzare i componenti in modo semplice e intuitivo, consentendo l'adattamento dell'interfaccia alle esigenze dell'applicazione nel tempo.
+- **Estensibilità e Scalabilità:**
 
 La struttura del progetto, con la sua organizzazione dei componenti e delle responsabilità, porta a un codice più chiaro, manutenibile e riutilizzabile. Questo migliora la qualità e la scalabilità complessiva dell'applicazione, semplificando lo sviluppo e garantendo un alto standard di qualità nel tempo.
 
