@@ -45,7 +45,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 
 >[!IMPORTANT]
->La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco&ensp; [![Stato](https://img.shields.io/badge/Stato-Blu-blue)](#Lista-partecipanti)
+>La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco [![Stato](https://img.shields.io/badge/Stato-Blu-blue)](#Lista-partecipanti)
 
 
 ### Fase di Gioco
