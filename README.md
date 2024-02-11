@@ -43,8 +43,8 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 #### Indice
 
-1. [Acquisto Cartelle Botteghino](#Acquisto Cartelle Botteghino)
-2. [Acquisto Cartelle Botteghino Tabellone](#Acquisto Cartelle Botteghino Tabellone)
+1. [Acquisto Cartelle Botteghino](#acquisto-cartelle-botteghino)
+2. [Acquisto Cartelle Botteghino Tabellone](#acquisto-cartelle-botteghino-tabellone)
 
 ---
 
