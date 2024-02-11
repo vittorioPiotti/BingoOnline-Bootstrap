@@ -91,9 +91,9 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 ![Form di inizio della partita](images/Lista-partecipanti.png)
 
 Stati dei partecipanti:
-- ![Stato](https://img.shields.io/badge/Rosso-red) se l'utente non ha comprato nessuna cartella
-- ![Stato](https://img.shields.io/badge/Verde-green) se l'utente ha comprato almeno una cartella
-- ![Stato](https://img.shields.io/badge/Blu-blue) se l'utente è pronto al gioco e ha acquistato almeno una cartella
+- ![Stato](https://img.shields.io/badge/Stato-Rosso-red) se l'utente non ha comprato nessuna cartella
+- ![Stato](https://img.shields.io/badge/Stato-Verde-green) se l'utente ha comprato almeno una cartella
+- ![Stato](https://img.shields.io/badge/Stato-Blu-blue) se l'utente è pronto al gioco e ha acquistato almeno una cartella
 
 
 #### Chat di gruppo
@@ -416,44 +416,27 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 ---
 
 ### Prerequisiti:
-1. **Node.js `v20.11.0`** installato sul sistema.
-2. Gestore di pacchetti **npm `v10.3.0`** o **yarn `v4.1.0`**.
+
+[`Bootstrap v5.3`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;[`XAMP v5.3`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;[`MAMP`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;[`SQL 2022`](https://sqlserverbuilds.blogspot.com/)&ensp;&ensp;&ensp;[`PHP v8.3.2`](https://www.php.net/supported-versions.php)
+
 
 
 ### Istruzioni:
-1. **Clonare il Repository:** Assicurasi di aver clonato il repository del progetto frontend sul sistema locale.
+1. **Clonare la Repository**
    
    ```
-   git clone <URL_del_repository>
+   git clone https://github.com/vittorioPiotti/BingoOnline
    ```
-
-3. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:
    
-   ```
-   npm install
-   ```
-   oppure
-
-   ```
-   yarn install
-   ```
-
-4. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, avviare il server di sviluppo locale eseguendo il comando:
-   
-   ```
-   npm start
-   ```
-   oppure
-
-   ```
-   yarn start
-   ```
-
-6. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
+2. **MAMP o XAMP per avvio locale**
+3. **Configurazione Database**
+4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
    
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
+
+![Compatibilità Server](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
 
 
 
@@ -470,26 +453,13 @@ Breve guida su come distribuire il frontend in un ambiente di produzione.
 Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti passaggi:
 
 ### Prerequisiti per la Distribuzione:
-1. Necessita di avere **accesso a un server Web** per ospitare l'applicazione frontend.
-2. **Disporre delle credenziali di accesso al server** per caricare i file del frontend.
+1. Necessita di avere **accesso a un server Web** o ad un servizio di [hosting web](https://www.000webhost.com/) per ospitare l'applicazione frontend.
 
 ### Istruzioni per la Distribuzione:
-1. **Build dell'Applicazione:** Prima di distribuire il frontend, è necessario generare una build ottimizzata dell'applicazione. Esegui il comando seguente nella directory del progetto per eseguire la build:
-   
-   ```
-   npm run build
-   ```
-   oppure
-
-   ```
-   yarn build
-   ```
-
-4. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurasi di configurare correttamente il server per servire i file statici dell'applicazione.
-5. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
-6. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurarsi di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
-
-
+1. **Caricamento dei file** 
+4. **Configurazione del Databse:**
+5. **Verifica del Funzionamento** 
+6. **Aggiornamenti e Manutenzione:** 
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
@@ -512,12 +482,10 @@ Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e fun
 
 ### Ringraziamenti
 
-Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel portare avanti questo progetto. 
 
 | Ruolo          | Nome            | Email                        | GitHub                                           |
 |----------------|-----------------|------------------------------|-----------------------------------------------|
-| Gestore Backend| Reda Karimi     | redakarimi76@gmail.com      | [redakarimi](https://github.com/redakarimi)  |
-| Gestore Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com | [vittoriopiotti](https://github.com/vittoriopiotti) |
+| Gestore Frontend  & Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com | [vittoriopiotti](https://github.com/vittoriopiotti) |
 
 
 ### Riferimenti aggiuntivi
@@ -525,14 +493,14 @@ Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel 
 Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferimento ai seguenti link:
 
 
-| Issues Repository GitHub                        | Email Aziendale                  | Email Privata                  |
-|------------------------------------------|---------------------------------|--------------------------------|
-| [Repository](https://github.com/vittorioPiotti/Gestionale/issues) | gestionale.dev@gmail.com                | redakarimi76@gmail.com                        |
-|  |                |                           vittoriopiotti.vp@gmail.com     |
+| Issues Repository GitHub                        | 
+|------------------------------------------|
+| [Repository](https://github.com/vittorioPiotti/Gestionale/issues) |
+|  |              
 
 
 
-![Contatto](https://img.shields.io/badge/Contatto-Email%20%7C%20GitHub-blue)
+![Contatto](https://img.shields.io/badge/Contatto-GitHub-blue)
 
 
 ### Supporto e collaborazione futura
