@@ -430,7 +430,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
    
 2. **Configurare MAMP o XAMP per avvio locale**
 3. **Configurazione Database**
-4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
+4. **Accesso all'Applicazione dall'URL**.
    
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
