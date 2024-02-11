@@ -428,7 +428,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
    git clone https://github.com/vittorioPiotti/BingoOnline
    ```
    
-2. **MAMP o XAMP per avvio locale**
+2. **Configurare MAMP o XAMP per avvio locale**
 3. **Configurazione Database**
 4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
    
@@ -453,13 +453,13 @@ Breve guida su come distribuire il frontend in un ambiente di produzione.
 Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti passaggi:
 
 ### Prerequisiti per la Distribuzione:
-1. Necessita di avere **accesso a un server Web** o ad un servizio di [hosting web](https://www.000webhost.com/) per ospitare l'applicazione frontend.
-
+`Server Web`&ensp;&ensp;&ensp;[`Servizio di Hosting Web`](https://www.000webhost.com/)
+   
 ### Istruzioni per la Distribuzione:
-1. **Caricamento dei file** 
-4. **Configurazione del Databse:**
-5. **Verifica del Funzionamento** 
-6. **Aggiornamenti e Manutenzione:** 
+2. **Caricamento dei file** 
+3. **Configurazione del Databse:**
+4. **Verifica del Funzionamento** 
+5. **Aggiornamenti e Manutenzione:** 
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
