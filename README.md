@@ -41,7 +41,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 ![Form di registrazione del cliente](images/accesso-alla-partita.png)
 
 >[!IMPORTANT]
->Solo se l'utente ha effettuato l'accesso in una partita può accede alle funzionalità  del gioco
+>Solo se l'utente ha effettuato l'[accesso alla partita](#Accesso-alla-Partita) può accede alle funzionalità  del gioco
 
 ### Fase di Gioco
 
@@ -128,11 +128,11 @@ Visualzizazione di tutti i numeri estratti
 ### Teconologie Backend
 
 
-[`SQL 2022`](#SQL)&ensp;&ensp;&ensp;[`PHP v8.3.2`](#PHP)
+[`SQL 2022`](https://sqlserverbuilds.blogspot.com/)&ensp;&ensp;&ensp;[`PHP v8.3.2`](https://www.php.net/supported-versions.php)
 
 ### Teconologie Frontend
 
-[`Javascript ES6 v18.5`](#Javascript)&ensp;&ensp;&ensp;[`HTML v5.3`](#HTML)&ensp;&ensp;&ensp;[`CSS v3`](#CSS)&ensp;&ensp;&ensp;[`Bootstrap v5.3`](#Bootstrap)&ensp;&ensp;&ensp;
+`Javascript ES6 v18.5`&ensp;&ensp;&ensp;`HTML v5.3`&ensp;&ensp;&ensp;`CSS v3`&ensp;&ensp;&ensp;[`Bootstrap v5.3`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;
 
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React-yellow)
