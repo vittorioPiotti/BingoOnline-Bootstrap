@@ -43,6 +43,11 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 >[!IMPORTANT]
 >Solo se l'utente ha effettuato l'[accesso alla partita](#Accesso-alla-Partita) può accede alle funzionalità  del gioco
 
+
+>[!IMPORTANT]
+>La partita inizia solo se tutti i giocatori sono pronti ed hanno acquistato almeno una cartella
+
+
 ### Fase di Gioco
 
 1. [Features del gioco](#Features-del-gioco)
@@ -89,6 +94,7 @@ Stati dei partecipanti:
 - ![Stato](https://img.shields.io/badge/Rosso-red) se l'utente non ha comprato nessuna cartella
 - ![Stato](https://img.shields.io/badge/Verde-green) se l'utente ha comprato almeno una cartella
 - ![Stato](https://img.shields.io/badge/Blu-blue) se l'utente è pronto al gioco e ha acquistato almeno una cartella
+
 
 #### Chat di gruppo
 
