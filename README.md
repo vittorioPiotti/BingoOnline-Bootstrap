@@ -21,19 +21,6 @@
 
 Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tombola in un'applicazione web multi player offrendo un'esperienza utente con le seguenti features.
 
-### Accesso Immediato
-Non è necessaria alcuna registrazione per iniziare a giocare, permettendo agli utenti di accedere direttamente al sito web e avviare partite con facilità.
-### Creazione di Partite Personalizzate
-Gli utenti possono creare partite personalizzate e generare codici univoci per condividerli con gli amici, semplificando l'organizzazione di sessioni di gioco su misura.
-### Funzionalità Multiplayer Avanzate
-Grazie alle funzionalità multiplayer, i giocatori possono interagire e competere tra loro, partecipando ad estrazioni in tempo reale e acquistando cartelle.
-### Menu Interattivo e Chat di Gioco
-Un menu intuitivo facilita la navigazione tra le varie funzioni del gioco, mentre una chat integrata permette la comunicazione e la condivisione di emozioni con gli altri partecipanti.
-### Visualizzazione dello Stato dei Giocatori
-Lo stato dei giocatori è chiaramente visualizzato, consentendo agli altri partecipanti di vedere chi ha acquistato cartelle e chi è pronto a iniziare il gioco.
-### Gestione delle Partite
-Le partite possono essere avviate quando tutti i giocatori sono pronti e interrotte in qualsiasi momento, garantendo flessibilità e comodità per tutti i partecipanti.
-
 
 ### Indice
 
