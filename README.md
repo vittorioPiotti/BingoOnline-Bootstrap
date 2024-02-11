@@ -50,7 +50,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 ---
 
-#### Features del gioco
+### Features del gioco
 
 #### Indice
 
@@ -59,17 +59,17 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 ---
 
-##### Acquisto Cartelle Botteghino
+#### Acquisto Cartelle Botteghino
 
 ![Form di registrazione del cliente](images/acquisto-cartelle-botteghino.png)
 
 
-##### Acquisto Cartelle Botteghino Tabellone
+#### Acquisto Cartelle Botteghino Tabellone
 
 ![Form di registrazione del cliente](images/acquisto-cartelle-tabellone.png)
 
 
-#### Features Multiplayer
+### Features Multiplayer
 
 #### Indice
 
@@ -81,7 +81,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 ---
 
 
-##### Lista partecipanti
+#### Lista partecipanti
 
 ![Form di inizio della partita](images/Lista-partecipanti.png)
 
@@ -90,7 +90,7 @@ Lista dei partecipanti i relativi stati
 - Stato verde se l'utente ha comprato almeno una cartella
 - Stato blu se l'utente è pronto al gioco
 
-##### Chat di gruppo
+#### Chat di gruppo
 
 ![Form di inizio della partita](images/Chat-di-gruppo.png)
 
@@ -102,13 +102,13 @@ Chat di gioco per interagire con gli altri utenti
 >[!TIP]
 >In future implementazioni la censura delle parole inappropriate
 
-##### Classifica giocatori
+#### Classifica giocatori
 
 ![Form di inizio della partita](images/Classifica-giocatori.png)
 
 Classifica dei giocatori e dei premi riscattati
 
-##### Numeri estratti
+#### Numeri estratti
 
 ![Form di inizio della partita](images/Numeri-estratti.png)
 
