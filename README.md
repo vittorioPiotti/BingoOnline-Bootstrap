@@ -483,9 +483,9 @@ Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e fun
 ### Ringraziamenti
 
 
-| Ruolo          | Nome            | Email                        | GitHub                                           |
-|----------------|-----------------|------------------------------|-----------------------------------------------|
-| Gestore Frontend  & Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com | [vittoriopiotti](https://github.com/vittoriopiotti) |
+| Ruolo          | Nome             | GitHub                                           |
+|----------------|-----------------|-----------------------------------------------|
+| Gestore Frontend  & Frontend| Vittorio Piotti| [vittoriopiotti](https://github.com/vittoriopiotti) |
 
 
 ### Riferimenti aggiuntivi
@@ -496,7 +496,7 @@ Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferime
 | Issues Repository GitHub                        | 
 |------------------------------------------|
 | [Repository](https://github.com/vittorioPiotti/Gestionale/issues) |
-|  |              
+  
 
 
 
