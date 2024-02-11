@@ -16,9 +16,27 @@
 12. [Distribuzione](#12-distribuzione)
 13. [Conclusione](#13-conclusione)
 
+
 ## 1. Introduzione
 
-Il frontend del progetto "Tombola Online" offre un interfaccia userfriendly che consente agli utenti che non hanno bisogno di registrarsi e possono accedere direttamente alle funzionalità del sito web che consente loro di creare una partita da cui viene generato il codice della partita da condividere con gli amici che connettendosi anche loro possono comprare le cartelle del botteghino o del bancone sfruttando le features del multiplayer in un menu interattivo per cui è possibile interagire con gli altri giocatori tramite una chat di gioco, viusalizzare la classifica dei giocatori ed i premi vinti, visualizzare lo stato degli altri giocatori che se è grigio allora non hanno comprato nessuna cartella, se è verde hanno comprato almeno una cartella e se è blu sono pronti al gioco in modo che il gioco cominci notificando le riscussione delle vincita solo se tutti i giocatori sono pronti al gioco  garantendo che la partita possa essere interrotta in qualsiasi momento segnalando a chiunque la notifica di interruzione della partita con una dialog
+### Accesso Immediato
+Non è richiesta alcuna registrazione per iniziare a giocare. Gli utenti possono accedere direttamente al sito web e iniziare a creare o partecipare a partite con i propri amici.
+
+### Creazione di Partite Personalizzate
+Gli utenti hanno la possibilità di creare le proprie partite e generare un codice univoco da condividere con gli amici, rendendo facile organizzare sessioni di gioco personalizzate.
+
+### Funzionalità Multiplayer Avanzate
+Grazie alle funzionalità multiplayer, i giocatori possono interagire e competere tra loro, acquistando cartelle e partecipando a estrazioni in tempo reale.
+
+### Menu Interattivo e Chat di Gioco
+Un menu intuitivo consente agli utenti di navigare tra le varie funzionalità del gioco, mentre una chat di gioco permette loro di comunicare e condividere l'entusiasmo con gli altri partecipanti.
+
+### Visualizzazione dello Stato dei Giocatori
+Lo stato dei giocatori è chiaramente visualizzato, consentendo agli altri partecipanti di sapere chi ha acquistato cartelle e chi è pronto a iniziare il gioco.
+
+### Gestione delle Partite
+Le partite possono essere avviate quando tutti i giocatori sono pronti e interrotte in qualsiasi momento, garantendo flessibilità e comodità per tutti i partecipanti.
+
 
 ### Indice
 
