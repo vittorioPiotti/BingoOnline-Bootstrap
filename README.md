@@ -331,9 +331,7 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 
 
 > [!IMPORTANT]
-> Le personalizzazioni degli stili sono state apportate solo nei fogli di stile CSS sorgente mantenendo le classi predefinite di Bootstrap.
-> 
-> Ciò garantisce un controllo flessibile dello stile che mantenga la coerenza e semplifichi la manutenzione del codice.
+> Le personalizzazioni degli stili sono state apportate solo nei sorgente mantenendo le classi predefinite di Bootstrap.
 
 
 
