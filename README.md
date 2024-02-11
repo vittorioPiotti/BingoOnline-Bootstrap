@@ -45,7 +45,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 
 >[!IMPORTANT]
->La partita inizia  il creatore la avvia quando sono tutti i giocatori pronti ed hanno acquistato almeno una cartella
+>La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco ed hanno [stato blu](#Lista-partecipanti) ed hanno acquistato almeno una cartella
 
 
 ### Fase di Gioco
