@@ -41,13 +41,14 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 ![Form di registrazione del cliente](images/accesso-alla-partita.png)
 
 >[!IMPORTANT]
->Solo se l'utente ha effettuato l'accesso in una partita può accede alle funzionalità online del gioco
+>Solo se l'utente ha effettuato l'accesso in una partita può accede alle funzionalità  del gioco
 
 ### Fase di Gioco
 
+1. [Features del gioco](#Features-del-gioco)
+2. [Features Multiplayer](#Features-Multiplayer)
 
-In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso un menu interattivo l'utente può beneficiare delle seguenti features:
-
+---
 
 #### Features del gioco
 
@@ -68,7 +69,7 @@ In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso
 ![Form di registrazione del cliente](images/acquisto-cartelle-tabellone.png)
 
 
-#### Features multiplayer
+#### Features Multiplayer
 
 #### Indice
 
