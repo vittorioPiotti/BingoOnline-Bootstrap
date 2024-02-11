@@ -24,27 +24,24 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ### Indice
 
-1. [Inizio della Partita](#Inizio-della-Partita)
+1. [Accesso alla Partita](#Acceso-alla-Partita)
 2. [Preparazione al Gioco](#Preparazione-al-Gioco)
 3. [Fase di Gioco](#Fase-di-Gioco)
 
 ---
 
-### Inizio della Partita
+### Accesso alla Partita
 
 ![Form di inizio della partita](images/Inizio-della-Partita.png)
 
 L'utente sceglie il proprio username e  crea la partita generando il codice alla partita o vi accede selezionando uno dei codici delle partite in corso
 
->[!IMPORTANT]
->Solo se l'utente ha effettuato l'accesso in una partita può accede alle funzionalità online del gioco
-
 ### Preparazione al Gioco
 
 ![Form di registrazione del cliente](images/accesso-alla-partita.png)
 
-Gli utenti solo dopo aver effettuato l'accesso possono abilitare la fase di gioco e quindi acquistare o le cartelle del tabellone o quelle del botteghino in modo che il gioco inizi solo se tutti hanno comprato almeno una cartella e solo se il creatore avvia la partita
-
+>[!IMPORTANT]
+>Solo se l'utente ha effettuato l'accesso in una partita può accede alle funzionalità online del gioco
 
 ### Fase di Gioco
 
