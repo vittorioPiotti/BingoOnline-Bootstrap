@@ -87,8 +87,8 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 Lista dei partecipanti i relativi stati
 - ![Stato](https://img.shields.io/badge/Rosso-red) se l'utente non ha comprato nessuna cartella
-- Stato verde se l'utente ha comprato almeno una cartella
-- Stato blu se l'utente è pronto al gioco
+- ![Stato](https://img.shields.io/badge/Verde-green) se l'utente ha comprato almeno una cartella
+- ![Stato](https://img.shields.io/badge/Blu-Blue) blu se l'utente è pronto al gioco
 
 #### Chat di gruppo
 
