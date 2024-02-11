@@ -59,6 +59,9 @@ In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso
 
 - Chat di gioco per interagire con gli altri utenti
 
+- >[!TIP]
+  >In future implementazioni la censura delle parole inappropriate
+
 #### Classifica giocatori
 
 ![Form di inizio della partita](images/Classifica-giocatori.png)
