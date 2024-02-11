@@ -327,24 +327,12 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 ## 9. Stili
 
 
-Nel frontend del progetto, la gestione degli stili è stata fondamentale per garantire un'interfaccia utente coerente e accattivante. 
+`CSS v3`&ensp;&ensp;&ensp;[`Bootstrap v5.3`](https://getbootstrap.com/docs/versions/)
 
-### Lista Stili
-
-[`Ant Design`](#stiliAntDesign)&ensp;&ensp;&ensp;[`CSS personalizzati`](#stiliCSSPersonalizzati)&ensp;&ensp;&ensp;[`CSS Bootstrap`](#stiliCSSBootstrap)
-
----
-
-Qui di seguito vengono delineati gli approcci utilizzati per gestire gli stili:
-
-- <a id="stiliAntDesign"></a>[**Ant Design**](#AntDesign): La libreria di componenti UI per React, Ant Design, è stata ampiamente impiegata per accedere a componenti già stilizzati e pronti all'uso. Questi componenti predefiniti hanno permesso di risparmiare tempo nello sviluppo e di ottenere un'interfaccia utente coesa e professionale.
-
-- <a id="stiliCSSPersonalizzati"></a>[**Fogli di stile CSS personalizzati** ](#CSSPersonalizzati): Per adattare ulteriormente l'aspetto dei componenti di Ant Design alle specifiche esigenze del progetto, sono stati utilizzati fogli di stile CSS personalizzati. Questi fogli di stile consentono di sovrascrivere o estendere le regole di stile predefinite per ottenere un design coerente con il tema generale dell'applicazione.
-
-- <a id="stiliCSSBootstrap"></a>[**Integrazione di classi di stile Bootstrap**](#Bootstrap): Per ampliare le funzionalità e sfruttare componenti specifici offerti da Bootstrap, sono state integrate classi di stile Bootstrap all'interno dell'applicazione. Questo approccio ha permesso di combinare le caratteristiche di entrambe le librerie per ottenere un'interfaccia utente versatile e ben strutturata.
 
 > [!IMPORTANT]
-> Le personalizzazioni degli stili sono state apportate solo nei fogli di stile CSS sorgente, senza modificare direttamente le classi predefinite di Bootstrap o Ant Design. Questo garantisce un controllo flessibile sull'aspetto dell'applicazione, mantenendo la coerenza e semplificando la manutenzione del codice.
+> Le personalizzazioni degli stili sono state apportate solo nei fogli di stile CSS sorgente, senza modificare direttamente le classi predefinite di Bootstrap.
+> Ciò garantisce un controllo flessibile dello stile che mantenga la coerenza e semplifichi la manutenzione del codice.
 
 
 
