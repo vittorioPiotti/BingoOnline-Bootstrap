@@ -85,7 +85,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 ![Form di inizio della partita](images/Lista-partecipanti.png)
 
-**Stati dei partecipanti:**
+Stati dei partecipanti:
 - ![Stato](https://img.shields.io/badge/Rosso-red) se l'utente non ha comprato nessuna cartella
 - ![Stato](https://img.shields.io/badge/Verde-green) se l'utente ha comprato almeno una cartella
 - ![Stato](https://img.shields.io/badge/Blu-blue) se l'utente è pronto al gioco e ha acquistato almeno una cartella
