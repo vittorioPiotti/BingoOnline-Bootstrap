@@ -98,6 +98,9 @@ Lista dei partecipanti i relativi stati
 
 Chat di gioco per interagire con gli altri utenti
 
+>[!WARNING]
+>Nessuna censura delle parole inappropriate
+
 >[!TIP]
 >In future implementazioni la censura delle parole inappropriate
 
