@@ -73,10 +73,10 @@ In questa fase le funzionalità del multiplayer sono abilitate quindi attreverso
 
 #### Indice
 
-2. [Lista partecipanti](#Lista partecipanti)
-3. [Chat di gruppo](#Chat di gruppo)
-4. [Classifica giocatori](#Classifica giocatori)
-5. [Numeri estratti](#Numeri estratti)
+2. [Lista partecipanti](#Lista-partecipanti)
+3. [Chat di gruppo](#Chat-di-gruppo)
+4. [Classifica giocatori](#Classifica-giocatori)
+5. [Numeri estratti](#Numeri-estratti)
 
 ---
 
