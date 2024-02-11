@@ -34,8 +34,10 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ![Form di inizio della partita](images/Inizio-della-Partita.png)
 
-- L'utente sceglie il proprio username e  crea la partita generando il codice alla partita o vi accede selezionando uno dei codici delle partite in corso
-- solo se l'utente ha effettuato l'accesso in una partita allora può sfruttare alle funzionalità del gioco
+L'utente sceglie il proprio username e  crea la partita generando il codice alla partita o vi accede selezionando uno dei codici delle partite in corso
+
+> [!IPORTANT]
+> Solo se l'utente ha effettuato l'accesso in una partita può accede alle funzionalità online del gioco
 
 ### Preparazione al Gioco
 
