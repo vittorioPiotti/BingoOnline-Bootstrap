@@ -331,8 +331,10 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 
 ## 10. Testing
 
-- **Test Unitari**
-- **Test di Integrazione**
+**Test:** Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
+
+- Test Unitari
+- Test di Integrazione
 
 **Esito** Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
 
