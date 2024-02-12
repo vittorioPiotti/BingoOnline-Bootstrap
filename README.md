@@ -331,65 +331,29 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 
 ## 10. Testing
 
-Breve panoramica dei test unitari e di integrazione effettuati sul frontend 
-
 ### Indice
 
 1. [Test Effettuati](#test-effettuati)
-2. [Benefici dei Test](#benefici-dei-test)
-3. [Esito dei Test](#esito-dei-test)
+2. [Esito dei Test](#esito-dei-test)
 
 ---
 
 
 ### Test Effettuati
 
-- **Test Unitari**: Sono stati sviluppati test unitari per verificare il corretto funzionamento dei singoli componenti e delle funzioni utilizzate nell'applicazione. Questi test hanno consentito di individuare eventuali bug e garantire che ogni componente si comporti come previsto in condizioni specifiche.
+- **Test Unitari**
+- **Test di Integrazione**
 
-- **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi componenti e le varie parti dell'applicazione. Questi test sono stati utili per assicurare che le varie parti dell'applicazione funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di esse.
-
+La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
+  
 > [!NOTE]
-> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come Jest.
-> 
-> - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
-   
-
-
-### Benefici dei Test
-
-- **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare gli utenti finali.
-
-- **Riduzione dei Rischi**: Effettuando test regolari, si è ridotto il rischio di errori e malfunzionamenti nell'applicazione, garantendo un'esperienza utente più fluida e priva di problemi.
-
-- **Aumento della Fiducia**: L'utilizzo di test ha aumentato la fiducia nello sviluppo e nel rilascio dell'applicazione, fornendo una valida garanzia che ogni cambiamento o aggiornamento non provochi regressioni o problemi imprevisti.
-
+> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing.
+>
 
 
 ### Esito dei Test
 
 Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
-
-<a id="WARNING"></a>
-> [!WARNING]
-> In [`FloatButtonGroup`](#FloatButtonGroup) messaggio di avvertimento per `findDOMNode` che è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`
-
-> [!WARNING]
-> In [`FloatButtonGroup`](#FloatButtonGroup) `findDOMNode` è deprecato in StrictMode quindi aggiungere un ref all'elemento di riferimento anziché utilizzare `findDOMNode`
-
-> [!WARNING]
-> In [`VisualizzaClientiView`](#VisualizzaClientiView) per il componente `Dropdown` `findDOMNode` l'uso di `visible` è deprecato quindi è stato consigliato di utilizzare `open`
-
-> [!WARNING]
-> In [`VisualizzaClientiView`](#VisualizzaClientiView) l'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
-
-> [!WARNING]
-> In [`VisualizzaClientiView`](#VisualizzaClientiView) è stata segnalata la mancanza di chiavi univoche per i figli nella lista.
-
-
-<a id="TIP"></a>
-> [!TIP]
-> Tra gli sviluppi futuri un'opportuna **migrazione e aggiornamento** di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
-
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
@@ -416,6 +380,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 
 ### Istruzioni:
+
 1. **Clonare la Repository**
    
    ```
@@ -450,10 +415,11 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 `Server Web`&ensp;&ensp;&ensp;[`Servizio di Hosting Web`](https://www.000webhost.com/)
    
 ### Istruzioni per la Distribuzione:
-2. **Caricamento dei file** 
-3. **Configurazione del Databse:**
-4. **Verifica del Funzionamento** 
-5. **Aggiornamenti e Manutenzione:** 
+
+1. Caricamento dei file
+2. Configurazione del Databse
+3. Verifica del Funzionamento
+4. Aggiornamenti e Manutenzione
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
