@@ -331,29 +331,19 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 
 ## 10. Testing
 
-### Indice
-
-1. [Test Effettuati](#test-effettuati)
-2. [Esito dei Test](#esito-dei-test)
-
----
-
-
-### Test Effettuati
-
 - **Test Unitari**
 - **Test di Integrazione**
 
-La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
-  
+**Esito** Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
+
 > [!NOTE]
-> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing.
->
+> La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing.
+
+> [!NOTE]
+> La [struttura del progetto](#3-struttura-del-progetto) ha facilitato il testing
 
 
-### Esito dei Test
 
-Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
