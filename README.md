@@ -284,43 +284,15 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 
 ## 8. Gestione delle Eccezioni
 
-### Indice 
 
-1. [Globale](#Globale)
-2. [Autenticazione Utente](#autenticazione-utente)
-3. [Registrazione Cliente](#registrazione-cliente)
-4. [Visualizzazione Clienti](#visualizzazione-clienti)
+> [!DANGEROUS]
+> Nelle API, la gestione delle eccezioni non fa uso dei codici di stato HTTP
 
----
+> [!WARNING]
+> Il Frontend adotta un sistema di try-catch nell'utilizzo di fetch per gestire le eccezioni
 
-### Codici di stato HTTP 
-
-Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al client. Ciò aiuta a garantire una gestione sicura e robusta delle richieste, fornendo al client tutte le informazioni necessarie per comprendere e gestire correttamente gli errori durante le interazioni con il backend.
-
-#### Globale
-
-- **`200` (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
-- **`404` (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
-- **`500` (Internal Server Error):** Si è verificato un errore interno.
-
-#### Autenticazione Utente
-
-- **`405` (Method Not Allowed):** Risposta in caso la password fornita non è corretta.
-- **`409` (Conflict):** Risposta in caso l'utente non esista nel sistema.
-  
-#### Registrazione Cliente
-
-- **`409` (Conflict):** Il codice fiscale fornito è già presente nel sistema.
-- **`400` (Bad Request):** I dati forniti per la registrazione non sono validi.
-
-#### Visualizzazione Clienti
-
-- **`500` (Internal Server Error):** Si è verificato un errore interno durante il recupero dell'elenco dei clienti.
-
-> [!WARNING]  
-> La gestione delle eccezioni è contestualizzata all'API di riferimento quindi a stessi codici di stato HTTP in diverse API corrispondono errori diversi
-
-
+> [!WARNING]
+> Nel Backend non sono implementati controlli specifici per la gestione delle eccezioni
 
 ## 9. Stili
 
