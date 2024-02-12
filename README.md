@@ -237,6 +237,8 @@ Per la gestione degli stati dei componenti non è stato necessario utilizzate li
 2. [Chiamate API Backend](#Chiamate-API-Backend)
 3. [Lista Chiamate API](#Lista-Chiamate-API)
 
+---
+
 ### Chiamate API Frontend
 
 **Utilizzo** della funzione `fetch()` integrata in JavaScript.
@@ -251,11 +253,28 @@ Per la gestione degli stati dei componenti non è stato necessario utilizzate li
 
 Nel frontend sono state utilizzate le seguenti API per consentire al client di interagire con le risorse del sistema:
 
-| API                  | Tipo    | Descrizione                                                 |
-|----------------------|---------|-------------------------------------------------------------|
-| **`/autenticaUtente`**       | **POST**                  | Gestisce il processo di **autenticazione dell'utente** con opportuni controlli per [gestire le eccezioni](#autenticazione-utente). |
-| **`/registraCliente`**      |**POST**                       | Gestisce la **registrazione di un cliente** con opportuni controlli per [gestire le eccezioni](#registrazione-cliente). |
-| **`/visualizzaClienti`**           | **GET**      | Restituisce la **visualizzazione dei clienti** memorizzati nel database con opportuni controlli per [gestire le eccezioni](#visualizzazione-clienti). |
+| Nome API                  | URL API | Tipo    | Descrizione                                              |
+|---------------------------|---------|---------|----------------------------------------------------------|
+| ripristinaNumeri          |         | POST    | Ripristina i numeri estratti per una partita specifica   |
+| ottieniPremi              |         | GET     | Ottiene l'elenco dei premi per una partita specifica     |
+| aggiornaPremio            |         | POST    | Aggiorna lo stato di un premio per una partita specifica |
+| initPremi                 |         | POST    | Inizializza l'elenco dei premi per una nuova partita     |
+| aggiornaNumeriEstratti    |         | POST    | Aggiorna i numeri estratti per una partita specifica     |
+| ottieniNumeriEstratti     |         | GET     | Ottiene l'elenco dei numeri estratti per una partita     |
+| verificaPresenzaUsername  |         | GET     | Verifica se un username è presente come partecipante     |
+| ottieniStatoPartita       |         | GET     | Ottiene lo stato corrente di una partita                 |
+| aggiornaStatoPartita      |         | POST    | Aggiorna lo stato di una partita                         |
+| verificaTuttiPronti       |         | GET     | Verifica se tutti i partecipanti sono pronti             |
+| aggiornaStatoGiocatore    |         | POST    | Aggiorna lo stato di un giocatore per una partita        |
+| ottieniListaPartecipanti  |         | GET     | Ottiene l'elenco dei partecipanti per una partita       |
+| accediPartita             |         | POST    | Accede a una partita con un nuovo username              |
+| uscitaPartita             |         | POST    | Esce da una partita con un username specifico           |
+| ottieniStorico            |         | GET     | Ottiene lo storico delle azioni per una partita         |
+| aggiornaStorico           |         | POST    | Aggiorna lo storico delle azioni per una partita        |
+| creaPartita               |         | POST    | Crea una nuova partita                                   |
+| eliminaPartita            |         | POST    | Elimina una partita esistente                           |
+| aggiornaListaCodici       |         | GET     | Ottiene l'elenco degli ID delle partite attive          |
+
 
 
 > [!NOTE]  
