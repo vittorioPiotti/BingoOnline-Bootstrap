@@ -336,11 +336,13 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 
 **Esito** Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
 
+**Migliore** affidabilità di utilizzo
+
 > [!NOTE]
 > La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing.
 
 > [!NOTE]
-> La [struttura del progetto](#3-struttura-del-progetto) ha facilitato il testing
+> La [struttura del progetto](#3-struttura-del-progetto) ha facilitato il testing e la manutenzione
 
 
 
@@ -356,12 +358,6 @@ Il [backend](../Server/README.md#8-gestione-delle-eccezioni) gestisce le eccezio
 
 Istruzioni su come avviare il frontend in modalità di sviluppo locale, con eventuali prerequisiti e comandi necessari.
 
-### Indice
-
-1. [Prerequisiti](#prerequisiti)
-2. [Istruzioni](#istruzioni)
-
----
 
 ### Prerequisiti:
 
@@ -392,13 +388,6 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 ## 12. Distribuzione
 Breve guida su come distribuire il frontend in un ambiente di produzione.
 
-### Indice
-
-1. [Prerequisiti per la Distribuzione](#prerequisiti-per-la-distribuzione)
-2. [Istruzioni per la Distribuzione](#istruzioni-per-la-distribuzione)
-
----
-
 Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti passaggi:
 
 ### Prerequisiti per la Distribuzione:
@@ -418,13 +407,6 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 
 
 ## 13. Conclusione
-
-### Indice
-
-1. [Ringraziamenti](#ringraziamenti)
-2. [Riferimenti aggiuntivi](#riferimenti-aggiuntivi)
-
----
 
 ### Ringraziamenti
 
