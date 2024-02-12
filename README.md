@@ -223,7 +223,7 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 - **Gestione Stati JavaScript**
 
 > [!NOTE]  
-> Per la gestione degli stati dei componenti non è stato necessario utilizzate librerie esterne come [`vis.js`](https://visjs.org/)
+> Per la gestione degli stati dei componenti non è stato necessario utilizzare framework esterni come [`react`](https://react.dev/)
 
 
 ## 7. Chiamate API
