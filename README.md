@@ -285,7 +285,7 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 ## 8. Gestione delle Eccezioni
 
 
-> [!DANGEROUS]
+> [!CAUTION]
 > Nelle API, la gestione delle eccezioni non fa uso dei codici di stato HTTP
 
 > [!WARNING]
