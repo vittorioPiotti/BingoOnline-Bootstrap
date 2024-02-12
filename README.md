@@ -122,15 +122,6 @@ Visualzizazione di tutti i numeri estratti
 
 ## 2. Tecnologie Utilizzate
 
-
-### Indice
-
-1. [Teconologie Backend](#Teconologie-Backend)
-2. [Teconologie Frontend](#Teconologie-Frontend)
-
----
-
-
 ### Teconologie Backend
 
 
@@ -202,7 +193,6 @@ L'organizzazione dei componenti grafici è dinamica e sviluppata in funzione deg
 
 
 ## 4. Componenti Principali
-Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali screenshot e descrizione.
 
 | Nome Form            | Descrizione Form                                                                                                                    | Immagine Form    |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
@@ -212,21 +202,23 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 
 ## 5. Routing
 
-Il sito è progettato in modo **one-page** quindi è privo di un sistema di routing in quanto le richieste vengono gestite direttamente senza reindirizzamenti di pagina.
+Il sito è **one-page** e non ha un sistema di routing 
 
-### Motivazione:
+Le richieste sono gestite senza reindirizzamenti di pagina.
 
-- **Gestione Dinamica dei Componenti Grafici**
-- **Esperienza Utente Fluida e Interattiva**
-- **Semplificazione della Logica di Navigazione**
-- **Ridotta Compelessità dell'Applicazione Web**
+**Motivazione:**
+- Gestione Dinamica dei Componenti Grafici
+- Esperienza Utente Fluida e Interattiva
+- Semplificazione della Logica di Navigazione
+- Ridotta Compelessità dell'Applicazione Web
 
 ## 6. Gestione dello Stato
 
-Per la gestione degli stati dei componenti non è stato necessario utilizzate librerie esterne come [`vis.js`](https://visjs.org/)
-
 - **Variabili JavaScript**
 - **Gestione Stati JavaScript**
+
+> [!NOTE]  
+> Per la gestione degli stati dei componenti non è stato necessario utilizzate librerie esterne come [`vis.js`](https://visjs.org/)
 
 
 ## 7. Chiamate API
@@ -398,6 +390,7 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 2. Configurazione del Databse
 3. Verifica del Funzionamento
 4. Aggiornamenti e Manutenzione
+   
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
