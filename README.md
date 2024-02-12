@@ -377,7 +377,6 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 
 ## 12. Distribuzione
-Breve guida su come distribuire il frontend in un ambiente di produzione.
 
 Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti passaggi:
 
