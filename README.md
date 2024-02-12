@@ -264,8 +264,7 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 | initPremi                 |         | POST    | Inizializza l'elenco dei premi per una nuova partita     |
 | aggiornaNumeriEstratti    |         | POST    | Aggiorna i numeri estratti per una partita specifica     |
 | ottieniNumeriEstratti     |         | GET     | Ottiene l'elenco dei numeri estratti per una partita     |
-| verificaPresenzaUsername  |event=6&id=${id}&username=${username}&ruolo=1|
-         | GET     | Verifica se un username è presente come partecipante     |
+| verificaPresenzaUsername  |event=6&id=${id}&username=${username}&ruolo=1|| GET     | Verifica se un username è presente come partecipante     |
 | ottieniStatoPartita       |         | GET     | Ottiene lo stato corrente di una partita                 |
 | aggiornaStatoPartita      |         | POST    | Aggiorna lo stato di una partita                         |
 | verificaTuttiPronti       |         | GET     | Verifica se tutti i partecipanti sono pronti             |
