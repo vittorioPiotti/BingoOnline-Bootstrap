@@ -251,8 +251,6 @@ Per la gestione degli stati dei componenti non è stato necessario utilizzate li
 
 ### Lista Chiamate API
 
-Nel frontend sono state utilizzate le seguenti API per consentire al client di interagire con le risorse del sistema:
-
 | Nome API                  | URL API | Tipo    | Descrizione                                              |
 |---------------------------|---------|---------|----------------------------------------------------------|
 | ripristinaNumeri          |         | POST    | Ripristina i numeri estratti per una partita specifica   |
