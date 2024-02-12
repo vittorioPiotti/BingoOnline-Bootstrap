@@ -286,13 +286,13 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 
 
 > [!CAUTION]
-> Nelle API, la gestione delle eccezioni non fa uso dei codici di stato HTTP
+> Nelle API, la gestione delle eccezioni non fa **nessun uso** dei `codici di stato HTTP`
 
 > [!WARNING]
-> Il Frontend adotta un sistema di try-catch nell'utilizzo di fetch per gestire le eccezioni
+> Il **Frontend** adotta un sistema di `try-catch` nell'utilizzo di `fetch` per gestire le eccezioni
 
 > [!WARNING]
-> Nel Backend non sono implementati controlli specifici per la gestione delle eccezioni
+> Nel **Backend** nono sono stati implementati controlli specifici sulle eccezioni
 
 ## 9. Stili
 
