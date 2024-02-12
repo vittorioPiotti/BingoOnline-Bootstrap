@@ -43,7 +43,7 @@ L'utente inserisce lo username e può o creare una partita o accedere ad un altr
 
 
 >[!IMPORTANT]
->La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco [![Stato](https://img.shields.io/badge/Stato-Blu-green)](#Lista-partecipanti)
+>La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco [![Stato](https://img.shields.io/badge/Stato-Verde-green)](#Lista-partecipanti)
 
 
 ### Fase di Gioco
