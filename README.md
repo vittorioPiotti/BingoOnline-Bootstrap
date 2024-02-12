@@ -235,15 +235,19 @@ Per la gestione degli stati dei componenti non è stato necessario utilizzate li
 
 1. [Chiamate API Frontend](#Chiamate-API-Frontend)
 2. [Chiamate API Backend](#Chiamate-API-Backend)
+3. [Lista Chiamate API](#Lista-Chiamate-API)
 
 ### Chiamate API Frontend
 
-**Utilizzo** della funzione `fetch()` integrata di JavaScript.
+**Utilizzo** della funzione `fetch()` integrata in JavaScript.
 
 **Migliore** rispetto ad un `Ajax per codice semplice e compressione delle richieste`
 
+### Chiamate API Backend
 
-### API Utilizzate
+**Utilizzo** di `php`
+
+### Lista Chiamate API
 
 Nel frontend sono state utilizzate le seguenti API per consentire al client di interagire con le risorse del sistema:
 
