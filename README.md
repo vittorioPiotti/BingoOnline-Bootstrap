@@ -1,4 +1,4 @@
-# Documentazione Tombola Online
+# Documentazione Tombola MultiPlayer
 
 ## Indice
 
@@ -19,7 +19,7 @@
 
 ## 1. Introduzione
 
-Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tombola in un'applicazione web multi player offrendo un'esperienza utente con le seguenti features.
+Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tombola in un'applicazione web MultiPlayer offrendo un'esperienza utente con le seguenti features.
 
 
 ### Indice
@@ -34,7 +34,7 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ![Form di inizio della partita](images/Inizio-della-Partita.png)
 
-L'utente sceglie il proprio username e  crea la partita generando il codice alla partita o vi accede selezionando uno dei codici delle partite in corso
+L'utente inserisce lo username e può o creare una partita o accedere ad un altra esistente
 
 ### Preparazione al Gioco
 
@@ -68,10 +68,15 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 
 ![Form di registrazione del cliente](images/acquisto-cartelle-botteghino.png)
 
+L'utente acquista le cartelle del botteghino
+
+
 
 #### Acquisto Cartelle Botteghino Tabellone
 
 ![Form di registrazione del cliente](images/acquisto-cartelle-tabellone.png)
+
+L'utente acquista le cartelle del tabellone
 
 
 ### Features Multiplayer
@@ -79,7 +84,7 @@ L'utente sceglie il proprio username e  crea la partita generando il codice alla
 #### Indice
 
 2. [Lista partecipanti](#Lista-partecipanti)
-3. [Chat di gruppo](#Chat-di-gruppo)
+3. [Chat di gioco](#Chat-di-gioco)
 4. [Classifica giocatori](#Classifica-giocatori)
 5. [Numeri estratti](#Numeri-estratti)
 
@@ -96,7 +101,7 @@ Stati dei partecipanti:
 - ![Stato](https://img.shields.io/badge/Stato-Blu-blue) se l'utente è pronto al gioco e ha acquistato almeno una cartella
 
 
-#### Chat di gruppo
+#### Chat di gioco
 
 ![Form di inizio della partita](images/Chat-di-gruppo.png)
 
@@ -196,15 +201,20 @@ L'organizzazione dei componenti grafici è dinamica e sviluppata in funzione deg
 
 | Nome Form            | Descrizione Form                                                                                                                    | Immagine Form    |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Menu Interattivo     | Utilizzato per interagire tra i partecipanti e per visualizzare i dati della partita multigiocatore.                                 | ![menu-interattivo](images/.png)|
-| Botteghio Cartelle   | Per comprare cartelle al botteghino.                                                                                                 | ![botteghino-cartelle](images/botteghino-cartelle.png)|
-| Botteghino Tabellone | Per comprare cartelle al tabellone del botteghino.                                                                                    | ![botteghino-tabellone](images/botteghino-tabellone.png)|
+| Accesso Partita   | Form di accesso alla partita                        | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Lista Giocatori   | Visualizza la lista dei giocatori e dei loro stati                        | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Chat di Gioco   | Gli utenti interagiscono nella chat di gioco                                | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Classifica    | Visualizza la classifica dei giocatori e dei premi vinti                                | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Numeri Estratti    | Visualizza tutti i numeri estratti                                | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Botteghio Cartelle   | Per comprare cartelle al botteghino.                                   | ![botteghino-cartelle](images/botteghino-cartelle.png)|
+| Botteghino Tabellone | Per comprare cartelle al tabellone del botteghino.                                   | ![botteghino-tabellone](images/botteghino-tabellone.png)|
+| Partita avviata | Form di gioco della partita                                   | ![botteghino-tabellone](images/botteghino-tabellone.png)|
 
 ## 5. Routing
 
 Il sito è **one-page** e non ha un sistema di routing 
 
-Le richieste sono gestite senza reindirizzamenti di pagina.
+Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 
 **Motivazione:**
 - Gestione Dinamica dei Componenti Grafici
@@ -243,7 +253,10 @@ Le richieste sono gestite senza reindirizzamenti di pagina.
 
 ### Lista Chiamate API
 
-| Nome API                  | URL API | Tipo    | Descrizione                                              |
+
+
+
+| Nome API                  | URL API server.php? | Tipo    | Descrizione                                              |
 |---------------------------|---------|---------|----------------------------------------------------------|
 | ripristinaNumeri          |         | POST    | Ripristina i numeri estratti per una partita specifica   |
 | ottieniPremi              |         | GET     | Ottiene l'elenco dei premi per una partita specifica     |
@@ -251,7 +264,8 @@ Le richieste sono gestite senza reindirizzamenti di pagina.
 | initPremi                 |         | POST    | Inizializza l'elenco dei premi per una nuova partita     |
 | aggiornaNumeriEstratti    |         | POST    | Aggiorna i numeri estratti per una partita specifica     |
 | ottieniNumeriEstratti     |         | GET     | Ottiene l'elenco dei numeri estratti per una partita     |
-| verificaPresenzaUsername  |         | GET     | Verifica se un username è presente come partecipante     |
+| verificaPresenzaUsername  |event=6&id=${id}&username=${username}&ruolo=1
+         | GET     | Verifica se un username è presente come partecipante     |
 | ottieniStatoPartita       |         | GET     | Ottiene lo stato corrente di una partita                 |
 | aggiornaStatoPartita      |         | POST    | Aggiorna lo stato di una partita                         |
 | verificaTuttiPronti       |         | GET     | Verifica se tutti i partecipanti sono pronti             |
