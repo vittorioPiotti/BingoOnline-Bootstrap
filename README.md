@@ -334,9 +334,6 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 
 ## 11. Avvio e Sviluppo Locale
 
-Istruzioni su come avviare il frontend in modalità di sviluppo locale, con eventuali prerequisiti e comandi necessari.
-
-
 ### Prerequisiti:
 
 [`Bootstrap v5.3`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;[`XAMP v5.3`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;[`MAMP`](https://getbootstrap.com/docs/versions/)&ensp;&ensp;&ensp;[`SQL 2022`](https://sqlserverbuilds.blogspot.com/)&ensp;&ensp;&ensp;[`PHP v8.3.2`](https://www.php.net/supported-versions.php)
@@ -364,8 +361,6 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 
 ## 12. Distribuzione
-
-Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti passaggi:
 
 ### Prerequisiti per la Distribuzione:
 `Server Web`&ensp;&ensp;&ensp;[`Servizio di Hosting Web`](https://www.000webhost.com/)
