@@ -38,8 +38,6 @@ L'utente inserisce lo username e può o creare una partita o accedere ad un altr
 
 ### Preparazione al Gioco
 
-![Accesso alla Partita](images/Accesso-alla-Partita-eseguito.png)
-
 >[!IMPORTANT]
 >Solo se l'utente ha effettuato l'[accesso alla partita](#Accesso-alla-Partita) può accede alle funzionalità  del gioco
 
@@ -56,6 +54,9 @@ L'utente inserisce lo username e può o creare una partita o accedere ad un altr
 ---
 
 ### Features del gioco
+
+![Accesso alla Partita](images/Accesso-alla-Partita-eseguito.png)
+
 
 #### Indice
 
