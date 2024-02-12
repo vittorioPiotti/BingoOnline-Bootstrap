@@ -262,7 +262,7 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 | ottieniPremi              |event=18&id=${codice}         | GET     | Ottiene l'elenco dei premi per una partita specifica     |
 | aggiornaPremio            |event=17&id=${codice}&username=${username}&premio=${premioAttuale}   | POST    | Aggiorna lo stato di un premio per una partita specifica |
 | initPremi                 |event=16&id=${codice}         | POST    | Inizializza l'elenco dei premi per una nuova partita     |
-| aggiornaNumeriEstratti    |event=14&id=${codice}&num=${numero)}         | POST    | Aggiorna i numeri estratti per una partita specifica     |
+| aggiornaNumeriEstratti    |event=14&id=${codice}&num=${numero}         | POST    | Aggiorna i numeri estratti per una partita specifica     |
 | ottieniNumeriEstratti     |event=15&id=${codice}         | GET     | Ottiene l'elenco dei numeri estratti per una partita     |
 | verificaPresenzaUsername  |event=13&id=${codice}&username=${username}  | GET   | Verifica se un username è presente come partecipante   |
 | ottieniStatoPartita       |event=12&id=${codice}         | GET     | Ottiene lo stato corrente di una partita                 |
