@@ -32,7 +32,7 @@ Il progetto Tombola Online si propone di rendere l'esperienza di gioco della Tom
 
 ### Accesso alla Partita
 
-![Form di inizio della partita](images/Inizio-della-Partita.png)
+![Accesso alla Partita](images/Accesso-alla-Partita.png)
 
 L'utente inserisce lo username e può o creare una partita o accedere ad un altra esistente
 
