@@ -294,6 +294,9 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 > [!WARNING]
 > Nel **Backend** nono sono stati implementati controlli specifici sulle eccezioni
 
+> [!TIP]
+> Possibilità di implementare un sistema di gestione delle eccezzioni più avanzato
+
 ## 9. Stili
 
 
