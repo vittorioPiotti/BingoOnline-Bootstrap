@@ -241,7 +241,7 @@ Per la gestione degli stati dei componenti non è stato necessario utilizzate li
 
 **Utilizzo** della funzione `fetch()` integrata in JavaScript.
 
-**Migliore** rispetto ad un `Ajax per codice semplice e compressione delle richieste`
+**Migliore** rispetto ad un `Ajax` per codice semplice e compressione delle richieste
 
 ### Chiamate API Backend
 
