@@ -258,26 +258,25 @@ Le richieste sono gestite con **nessun reindirizzamento** di pagina.
 
 | Nome API                  | URL API `server.php?` | Tipo    | Descrizione                                              |
 |---------------------------|---------|---------|----------------------------------------------------------|
-| ripristinaNumeri          |server.php?event=19&id=${encodeURIComponent(codice)}         | POST    | Ripristina i numeri estratti per una partita specifica   |
+| ripristinaNumeri          |server.php?event=19&id=${codice}         | POST    | Ripristina i numeri estratti per una partita specifica   |
 | ottieniPremi              |event=18&id=${codice}         | GET     | Ottiene l'elenco dei premi per una partita specifica     |
-| aggiornaPremio            |event=17&id=${encodeURIComponent(codice)}&username=${encodeURIComponent(username)}&premio=${encodeURIComponent(premioAttuale)}   | POST    | Aggiorna lo stato di un premio per una partita specifica |
-| initPremi                 |event=16&id=${encodeURIComponent(codice)}         | POST    | Inizializza l'elenco dei premi per una nuova partita     |
-| aggiornaNumeriEstratti    |event=14&id=${encodeURIComponent(codice)}&num=${encodeURIComponent(numero)}         | POST    | Aggiorna i numeri estratti per una partita specifica     |
+| aggiornaPremio            |event=17&id=${codice}&username=${username}&premio=${premioAttuale}   | POST    | Aggiorna lo stato di un premio per una partita specifica |
+| initPremi                 |event=16&id=${codice}         | POST    | Inizializza l'elenco dei premi per una nuova partita     |
+| aggiornaNumeriEstratti    |event=14&id=${codice}&num=${numero)}         | POST    | Aggiorna i numeri estratti per una partita specifica     |
 | ottieniNumeriEstratti     |event=15&id=${codice}         | GET     | Ottiene l'elenco dei numeri estratti per una partita     |
-| verificaPresenzaUsername  |event=13&id=${encodeURIComponent(codice)}&username=${encodeURIComponent(username)}  | GET   | Verifica se un username è presente come partecipante   |
-| ottieniStatoPartita       |event=12&id=${encodeURIComponent(codice)}         | GET     | Ottiene lo stato corrente di una partita                 |
-| aggiornaStatoPartita      |event=11&id=${encodeURIComponent(codice)}         | POST    | Aggiorna lo stato di una partita                         |
-| verificaTuttiPronti       |event=10&id=${encodeURIComponent(codice)}         | GET     | Verifica se tutti i partecipanti sono pronti             |
-| aggiornaStatoGiocatore|event=9&id=${encodeURIComponent(codice)}&username=${encodeURIComponent("Banco")}&stato=1 | POST    | Aggiorna lo stato di un giocatore per una partita |
-| ottieniListaPartecipanti  |event=8&id=${encodeURIComponent(codice)}         | GET     | Ottiene l'elenco dei partecipanti per una partita       |
-| accediPartita   |event=6&id=${encodeURIComponent(codice)}&username=${encodeURIComponent(username)}&ruolo=1  | POST    | Accede a una partita con un nuovo username   |
-| uscitaPartita  |event=7&id=${encodeURIComponent(codice)}&username=${encodeURIComponent(username)}  | POST    | Esce da una partita con un username specifico           |
+| verificaPresenzaUsername  |event=13&id=${codice}&username=${username}  | GET   | Verifica se un username è presente come partecipante   |
+| ottieniStatoPartita       |event=12&id=${codice}         | GET     | Ottiene lo stato corrente di una partita                 |
+| aggiornaStatoPartita      |event=11&id=${codice}         | POST    | Aggiorna lo stato di una partita                         |
+| verificaTuttiPronti       |event=10&id=${codice}         | GET     | Verifica se tutti i partecipanti sono pronti             |
+| aggiornaStatoGiocatore|event=9&id=${codice}&username=${"Banco")}&stato=1 | POST    | Aggiorna lo stato di un giocatore per una partita |
+| ottieniListaPartecipanti  |event=8&id=${codice}         | GET     | Ottiene l'elenco dei partecipanti per una partita       |
+| accediPartita   |event=6&id=${codice}&username=${username}&ruolo=1  | POST    | Accede a una partita con un nuovo username   |
+| uscitaPartita  |event=7&id=${codice}&username=${username}  | POST    | Esce da una partita con un username specifico           |
 | ottieniStorico            |server.php?event=5&id=${codice}         | GET     | Ottiene lo storico delle azioni per una partita         |
-| aggiornaStorico           |event=4&id=${encodeURIComponent(codice)}&str=${append}         | POST    | Aggiorna lo storico delle azioni per una partita        |
-| creaPartita               |event=0&id=${encodeURIComponent(codice)}         | POST    | Crea una nuova partita                                   |
-| eliminaPartita            |event=12&id=${encodeURIComponent(codice)}         | POST    | Elimina una partita esistente                           |
+| aggiornaStorico           |event=4&id=${codice}&str=${append}         | POST    | Aggiorna lo storico delle azioni per una partita        |
+| creaPartita               |event=0&id=${codice}         | POST    | Crea una nuova partita                                   |
+| eliminaPartita            |event=12&id=${codice}         | POST    | Elimina una partita esistente                           |
 | aggiornaListaCodici       |event=3         | GET     | Ottiene l'elenco degli ID delle partite attive          |
-
 
 
 > [!NOTE]  
