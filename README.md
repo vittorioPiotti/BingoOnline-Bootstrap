@@ -38,14 +38,12 @@ L'utente inserisce lo username e può o creare una partita o accedere ad un altr
 
 ### Preparazione al Gioco
 
-![Form di registrazione del cliente](images/accesso-alla-partita.png)
-
 >[!IMPORTANT]
 >Solo se l'utente ha effettuato l'[accesso alla partita](#Accesso-alla-Partita) può accede alle funzionalità  del gioco
 
 
 >[!IMPORTANT]
->La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco [![Stato](https://img.shields.io/badge/Stato-Blu-blue)](#Lista-partecipanti)
+>La partita inizia solo se il creatore la avvia quando  tutti i giocatori sono pronti al gioco [![Stato](https://img.shields.io/badge/Stato-Blu-green)](#Lista-partecipanti)
 
 
 ### Fase di Gioco
