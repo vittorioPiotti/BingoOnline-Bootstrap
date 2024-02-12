@@ -231,40 +231,17 @@ Per la gestione degli stati dei componenti non è stato necessario utilizzate li
 
 ## 7. Chiamate API
 
-Le chiamate API dal frontend sono state utilizzate per interagire con il backend e scambiare dati tra il client e il server in questa applicazione web tramite la libreria Axios.
-
 ### Indice
 
-1. [Utilizzo di Axios](#utilizzo-di-axios)
-2. [Principali vantaggi di Axios](#principali-vantaggi-di-axios)
-3. [Interfaccia consistente](#interfaccia-consistente)
-4. [API Utilizzate](#api-utilizzate)
+1. [Chiamate API Frontend](#Chiamate-API-Frontend)
+2. [Chiamate API Backend](#Chiamate-API-Backend)
 
----
+### Chiamate API Frontend
 
-### Utilizzo di Axios
+**Utilizzo** della funzione `fetch()` integrata di JavaScript.
 
-Axios è una libreria JavaScript che semplifica il processo di effettuare chiamate HTTP dal frontend. È particolarmente popolare per la sua facilità d'uso, la sua flessibilità e il suo supporto per le richieste asincrone. 
+**Migliore** rispetto ad un `Ajax per codice semplice e compressione delle richieste`
 
-### Principali vantaggi di Axios:
-
-- **Facilità d'uso**: Axios offre un'API intuitiva e semplice da utilizzare per effettuare richieste HTTP, rendendo facile interagire con API esterne o interne al progetto.
-  
-- **Supporto per le richieste asincrone**: Axios supporta le richieste asincrone tramite l'utilizzo di Promises o async/await, consentendo di gestire facilmente operazioni di rete che richiedono tempo.
-
-- **Interfaccia consistente**: Axios fornisce un'interfaccia coerente per la gestione di vari tipi di richieste HTTP GET e POST semplificando la scrittura del codice e la comprensione delle operazioni di rete.
-
-### Benefici delle chiamate API con Axios
-
-Effettuare chiamate API con Axios dal frontend offre diversi vantaggi:
-
-1. **Comunicazione con il backend**: Axios consente al frontend di comunicare con il backend dell'applicazione, scambiando dati e informazioni in modo efficiente.
-
-2. **Gestione degli errori**: Axios fornisce un'ampia gestione degli errori per le chiamate API, consentendo di gestire facilmente situazioni di errore e di fornire feedback agli utenti.
-
-3. **Facilità di integrazione**: Grazie alla sua facilità d'uso, Axios può essere integrato facilmente all'interno di progetti React, Angular, Vue.js e altre applicazioni frontend.
-
-4. **Flessibilità**: Axios offre una vasta gamma di opzioni di configurazione e personalizzazione per adattarsi alle esigenze specifiche dell'applicazione.
 
 ### API Utilizzate
 
@@ -279,10 +256,6 @@ Nel frontend sono state utilizzate le seguenti API per consentire al client di i
 
 > [!NOTE]  
 > Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle Eccezioni](#8-gestione-delle-eccezioni).
-
-
->In sintesi, Axios è stata una scelta affidabile per gestire le chiamate API dal frontend dell'applicazione web, offrendo una solida base per la comunicazione tra client e server.
-
 
 ## 8. Gestione delle Eccezioni
 
