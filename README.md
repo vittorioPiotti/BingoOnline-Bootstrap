@@ -98,12 +98,10 @@ L'utente acquista le cartelle del tabellone
 Stati dei partecipanti:
 - ![Stato](https://img.shields.io/badge/Stato-Rosso-red) se l'utente non ha comprato nessuna cartella
 - ![Stato](https://img.shields.io/badge/Stato-Verde-green) se l'utente ha comprato almeno una cartella
-- ![Stato](https://img.shields.io/badge/Stato-Blu-blue) se l'utente è pronto al gioco e ha acquistato almeno una cartella
+- ![Stato](https://img.shields.io/badge/Stato-Blu-blue) se l'utente sta giocando 
 
 
 #### Chat di gioco
-
-![Form di inizio della partita](images/Chat-di-gruppo.png)
 
 Chat di gioco per interagire con gli altri utenti
 
@@ -115,13 +113,9 @@ Chat di gioco per interagire con gli altri utenti
 
 #### Classifica giocatori
 
-![Form di inizio della partita](images/Classifica-giocatori.png)
-
 Classifica dei giocatori e dei premi riscattati
 
 #### Numeri estratti
-
-![Form di inizio della partita](images/Numeri-estratti.png)
 
 Visualzizazione di tutti i numeri estratti
 
