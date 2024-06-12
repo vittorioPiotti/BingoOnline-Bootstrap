@@ -17,15 +17,6 @@ Sito Web Bingo: [Link al Sito](https://vittoriopiotti.altervista.org/Bingo/Onlin
 
 
 
-
-## Sito Mobile
-
-| Compra Cartelle | Compra Tabellone| Gioca Cartelle | Gioca Tabellone
-| ------------ | ------------ | ------------ | ------------ |
-| <img src="https://github.com/vittorioPiotti/Bingo/blob/main/cartelleMobile.png" alt="Icona" width="150"/> | <img src="https://github.com/vittorioPiotti/Bingo/blob/main/cartelleMobile.png" alt="Icona" width="150"/>  | <img src="https://github.com/vittorioPiotti/Bingo/blob/main/giocoCarteMobile.png" alt="Icona" width="150"/>  | <img src="https://github.com/vittorioPiotti/Bingo/blob/main/giocoTabelloneMobile.png" alt="Icona" width="150"/> | 
-
-
-
 ## API
 
 ### creaPartita
