@@ -12,22 +12,7 @@ Bingo SinglePlayer in cui giocare le Cartelle del Botteghino o le Cartelle del T
 
 ## Sito Web
 
-Sito Web Bingo: [Link al Sito](https://6l2tn4.csb.app/Bingo)
-
-
-
-## Compra 
-
-| Cartelle | Tabellone| 
-| ------------ | ------------ | 
-| <img src="https://github.com/vittorioPiotti/Bingo/blob/main/cartelleDesktop.png" alt="Icona" width="300"/> | <img src="https://github.com/vittorioPiotti/Bingo/blob/main/cartelleDesktop.png" alt="Icona" width="300"/>  |
-
-
-## Gioca 
-
-| Cartelle | Tabellone| 
-| ------------ | ------------ | 
-| <img src="https://github.com/vittorioPiotti/Bingo/blob/main/giocoCartelleDesktop.png" alt="Icona" width="300"/> | <img src="https://github.com/vittorioPiotti/Bingo/blob/main/giocoTabelloneDesktop.png" alt="Icona" width="300"/>  |
+Sito Web Bingo: [Link al Sito](https://vittoriopiotti.altervista.org/Bingo/Online/index.php)
 
 
 
