@@ -43,3 +43,11 @@ Sito Web Bingo: [Link al Sito](https://vittoriopiotti.altervista.org/Bingo/Onlin
 | **aggiornaPremio**      | `/event=17`            | `id`, `username`, `premio`          | Aggiorna il premio per un giocatore specificato nella partita.                  |
 | **ottieniPremi**        | `/event=18`            | `id`                                | Ottiene i premi per la partita specificata.                                      |
 | **ripristinaNumeri**    | `/event=19`            | `id`                                | Ripristina i numeri per la partita specificata.                                  |
+
+
+## Licenze
+
+| Componente         | Versione  | Copyright                         | Licenza                                                       |
+|--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
+| Bingo-Online-Bootstrap | v1.0.0    | 2024 Vittorio Piotti              | [GPL-3.0 License](https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/LICENSE.md) |
+| Bootstrap          | v4.0.0    | 2011-2018 The Bootstrap Authors   | [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE) |
