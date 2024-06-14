@@ -2,8 +2,8 @@
 
 
 
-# Bingo Bootstrap
-Bingo SinglePlayer in cui giocare le Cartelle del Botteghino o le Cartelle del Tabellone
+# Bingo Online Bootstrap
+Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del Tabellone
 
 
 > [!TIP]
