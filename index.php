@@ -1,3 +1,15 @@
+<!--
+  Bingo-Online-Bootstrap v1.0.0 (https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/releases/tag/1.0.0)
+  Copyright 2024 Vittorio Piotti
+  Licensed under GPL-3.0 (https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/LICENSE.md)
+-->
+
+<!--
+  Bootstrap v4.0.0 (https://getbootstrap.com)
+  Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+-->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
