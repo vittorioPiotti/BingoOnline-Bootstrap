@@ -1,4 +1,13 @@
 <?php
+
+/*
+  Bingo-Online-Bootstrap v1.0.0 (https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/releases/tag/1.0.0)
+  Copyright 2024 Vittorio Piotti
+  Licensed under GPL-3.0 (https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/LICENSE.md)
+*/
+
+
+                      
 $servername = "localhost";
 $username = "root";
 $password = "root";
