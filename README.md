@@ -1,6 +1,3 @@
-<img src="https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/socialpreview.png" />
-
-
 
 # Bingo Online Bootstrap
 Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del Tabellone
@@ -12,6 +9,12 @@ Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del T
 
 ## Icona 
 <img src="https://github.com/vittorioPiotti/Bingo/blob/main/img/icona.png" alt="Icona" width="100"/>
+
+## Preview
+
+<img src="https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/socialpreview.png" />
+
+
 
 ## Sito Web
 
