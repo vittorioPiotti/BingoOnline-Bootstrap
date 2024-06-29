@@ -4,6 +4,9 @@ Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del T
 
 
 > [!TIP]
+> Corretto funzionamento garantito
+
+> [!TIP]
 > Sito web **Responsive** con modalità **Desktop** e **Mobile**
 
 
