@@ -22,7 +22,7 @@ Sito Web Bingo: [Link al Sito](https://vittoriopiotti.altervista.org/Bingo/Onlin
 
 ---
 
-<img src="https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/socialpreview.png" />
+<img src="https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/socialpreview51.png" />
 
 
 
