@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="./img/icona.png">
     <link rel="stylesheet" href="./css/main.css"> 
+    <meta property="og:title" content="Bingo Online">
+    <meta property="og:description" content="Tombola MultiPlayer in cui giocare le Cartelle del Botteghino o le Cartelle del Tabellone con Features apposite per il MultiPlayer come la Chat di Gioco e la Classifica dei Giocatori.">
+    <meta property="og:url" content="https://vittoriopiotti.altervista.org/Bingo/Online/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/vittorioPiotti/Bingo-Online-Bootstrap/blob/main/socialpreview50.png?raw=true">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
 </head>
     <body onload="inizializzaPartita()" >
 <div class="bg-custom" id="login">
