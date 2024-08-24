@@ -15,8 +15,6 @@ Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del T
 
 
 
-## Icona 
-<img src="https://github.com/vittorioPiotti/Bingo/blob/main/img/icona.png" alt="Icona" width="100"/>
 
 
 
