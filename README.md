@@ -3,10 +3,8 @@
 Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del Tabellone
 
 
-> [!TIP]
-> Corretto funzionamento garantito
 
-> [!TIP]
+> [!INFO]
 > Sito web **Responsive** con modalità **Desktop** e **Mobile**
 
 #### Support Me
@@ -63,6 +61,23 @@ Sito Web Bingo: [Link al Sito](https://vittoriopiotti.altervista.org/Bingo/Onlin
 > I contenuti multimediali possono essere soggetti a una **licenza non commerciale** richiedendo l'acquisto di una licenza separata.
 
 
-| Componente         | Versione  | Copyright                         | Licenza                                                       |
-|--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
-| [DijkstraSolver](https://github.com/vittorioPiotti/BingoOnline-Bootstrap) | [v1.0.0](https://github.com/vittorioPiotti/BingoOnline-Bootstrap/releases/tag/v1.0.0)    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/BingoOnline-Bootstrap/blob/main/LICENSE.md) || Bootstrap          | v4.0.0    | 2011-2018 The Bootstrap Authors   | [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE) |
+### DijkstraSolver
+
+**Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)
+
+**Version** [v1.0.0](https://github.com/vittorioPiotti/BingoOnline-Bootstrap/releases/tag/v1.0.0)
+
+**License** [GPL-3.0](https://github.com/vittorioPiotti/BingoOnline-Bootstrap/blob/main/LICENSE.md)
+
+---
+
+### Bootstrap
+
+**Copyright** 2011-2018 The Bootstrap Authors 
+
+**Version** [v5.2](https://github.com/twbs/bootstrap/releases/tag/v5.2.0)
+
+**License** [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+
+
