@@ -1,11 +1,15 @@
 
 # Bingo Online Bootstrap
+
+> [!NOTE]
+> Sito web **Responsive** con modalità **Desktop** e **Mobile**
+
+
 Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del Tabellone
 
 
 
-> [!INFO]
-> Sito web **Responsive** con modalità **Desktop** e **Mobile**
+
 
 #### Support Me
 
