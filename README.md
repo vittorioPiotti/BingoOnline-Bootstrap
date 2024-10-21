@@ -21,7 +21,7 @@ Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del T
 
 
 
-## Sito Web
+## Preview
 
 Sito Web Bingo: [Link al Sito](https://vittoriopiotti.altervista.org/Bingo/Online/index.php)
 
