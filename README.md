@@ -9,12 +9,7 @@ Bingo Multi-Player in cui giocare le Cartelle del Botteghino o le Cartelle del T
 
 
 
-
-
-#### Support Me
-
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P012BC8U)
+---
 
 
 
